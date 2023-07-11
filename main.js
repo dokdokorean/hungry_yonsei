@@ -26,12 +26,11 @@ var noon1 = document.getElementById('noon');
     noon1.addEventListener('click', function noon0(event){
         noon_func()
     });
+
 var info = document.getElementById('info1');
-    info.addEventListener('mouseover', function (event){
+    info.addEventListener('click', function (event){
         document.getElementById('info_info').style.visibility='visible'
-    });
-    info.addEventListener('mouseout', function (event){
-        document.getElementById('info_info').style.visibility='hidden'
+        setTimeout(() => document.getElementById('info_info').style.visibility='hidden', 3000);
     });
 function morning_func(){
             document.getElementById('morning').style.color='#fff'
@@ -93,6 +92,15 @@ else{
     noon_func()
 }
 
+if (hours>15){
+    document.getElementById('info1').style.visibility='visible'
+}
+else{
+    document.getElementById('info1').style.visibility/='visible'
+}
+
+
+// 여기서부터 수정
 if(localStorage.getItem('mor-menu1')){
 var mor_menu1 = localStorage.getItem('mor-menu1')}
     document.getElementById('mor-menu10').innerText=mor_menu1

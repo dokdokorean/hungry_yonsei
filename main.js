@@ -30,7 +30,7 @@ var noon1 = document.getElementById('noon');
 var info = document.getElementById('info1');
     info.addEventListener('click', function (event){
         document.getElementById('info_info').style.visibility='visible'
-        setTimeout(() => document.getElementById('info_info').style.visibility='hidden', 3000);
+        setTimeout(() => document.getElementById('info_info').style.visibility='hidden', 3300);
     });
 function morning_func(){
             document.getElementById('morning').style.color='#fff'
@@ -39,7 +39,7 @@ function morning_func(){
         document.getElementById('noon').style.color='#616161'
         document.getElementById('morning-menu').style.visibility='visible'
         document.getElementById('lunch-menu').style.visibility='hidden'
-
+        document.getElementById('lunch-price').style.visibility='hidden'
 }
 function noon_func(){
     document.getElementById('noon').style.color='#fff'
@@ -48,6 +48,8 @@ function noon_func(){
         document.getElementById('morning').style.color='#616161'
         document.getElementById('morning-menu').style.visibility='hidden'
         document.getElementById('lunch-menu').style.visibility='visible'
+        document.getElementById('lunch-price').style.visibility='visible'
+
 }
 window.onload = function main(){
     //현재 년도 표시
@@ -90,7 +92,7 @@ if (hours>15){
     document.getElementById('info1').style.visibility='visible'
 }
 else{
-    document.getElementById('info1').style.visibility='hidden'
+    document.getElementById('info1').style.visibility='visible'
 }
 
 // 여기서부터 수정

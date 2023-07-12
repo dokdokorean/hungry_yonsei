@@ -58,30 +58,25 @@ var month = date.getMonth()
 //현재 날짜 표시
 var day = date.getDate()
 //현재 요일 표시
-document.getElementById("year").innerText=year+'.'+(month+1)+'.'+day+'.'
 
 var day1 = date.getDay()
 if (day1==0){
-    document.getElementById("day").innerText='( 일 )'
-}
+    var day10 = '( 일 )'}
 else if(day1==1){
-    document.getElementById("day").innerText='( 월 )'
-}
+    var day10 = '( 월 )'}
 else if(day1==2){
-    document.getElementById("day").innerText='( 화 )'
-}
+    var day10 = '( 화 )'}
 else if(day1==3){
-    document.getElementById("day").innerText='( 수 )'
-}
+    var day10 = '( 수 )'}
 else if(day1==4){
-    document.getElementById("day").innerText='( 목 )'
-}
+    var day10 = '( 목 )'}
 else if(day1==5){
-    document.getElementById("day").innerText='( 금 )'
-}
+    var day10 = '( 금 )'}
 else if(day1==6){
-    document.getElementById("day").innerText='( 토 )'
-}
+    var day10 = '( 토 )'}
+
+document.getElementById("year").innerText=year+'.'+(month+1)+'.'+day+'.'+day10
+
 //현재 시간 표시(사용자 접근성 향상)
 let hours=date.getHours();
 if (hours<9){

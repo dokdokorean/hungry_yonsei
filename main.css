@@ -266,6 +266,7 @@ li {
     visibility: hidden;
     font-size: 17px;
     transform: translate(-50%,0);
+    text-align: center;
     top: 7px;
     left: 50%;
     width: 300px;

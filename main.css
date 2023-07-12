@@ -34,9 +34,9 @@ li {
     position: absolute; 
     left: 50%; 
     top: 20px; 
-    transform: translate(-45%,0%);
+    transform: translate(-35%,0%);
     height: 40px; 
-    width: 130px;
+    width: 150px;
 }
 #yonsei{
     height: 37px; 
@@ -46,18 +46,18 @@ li {
 }
 .logo h1{
     position: absolute; 
-    top: -9px; 
+    top: -5px; 
     left: 41px;
-    font-size:17px; 
-    width: 80px;
+    font-size:15px; 
+    width: 120px;
     font-weight: bold;
 }
 .logo h2{
     position: absolute; 
-    top: 10px; 
+    top: 11px; 
     left: 41px;
-    font-size: 15px;
-    width: 80px;
+    font-size: 14px;
+    width: 120px;
     font-weight: lighter;
 }
 .main{
@@ -87,49 +87,6 @@ li {
 #year{
     position: relative;
     font-size: 20px;
-    font-weight: normal;
-    font-family:Verdana, Arial, Helvetica, sans-serif;
-}
-#year1{
-    position: relative;
-    font-size: 15px;
-    font-weight: light;
-    left: 3px;
-    top: 10px;
-}
-#month{
-    position: relative;
-    left: 10px;
-    font-size: 20px;
-    font-weight: normal;
-    font-family:Verdana, Arial, Helvetica, sans-serif;
-}
-#month1{
-    position: relative;
-    left: 12px;
-    font-size: 15px;
-    font-weight: light;
-    top: 10px;
-}
-#date{
-    position: relative;
-    left: 16px;
-    font-size: 20px;
-    font-weight: normal;
-    font-family:Verdana, Arial, Helvetica, sans-serif;
-}
-#date1{
-    position: relative;
-    left: 18px;
-    font-size: 15px;
-    font-weight: light;
-    top: 10px;
-}
-#day{
-    position: relative;
-    top: 5px;
-    left: 5px;
-    font-size: 17px;
     font-weight: normal;
     font-family:Verdana, Arial, Helvetica, sans-serif;
 }
@@ -166,16 +123,17 @@ li {
     background: #FFF;
     box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.15);
     flex-direction: column;
-    height: 90px;
-    width: 230px;
+    height: 80px;
+    width: 220px;
     visibility: hidden;
 }
 #info_info p{
     position: relative;
     font-size: 12px;
-    top: 5px;
+    top: 7px;
     left: 7px;
-    margin: 7px;
+    margin: 10px;
+    width: 170px;
 }
 /*클릭 이벤트 발생 지점*/
 .select{
@@ -201,10 +159,10 @@ li {
     top: 10px;
     left: 8px;
     margin: 0px;
-    font-size: 19px;
+    font-size: 17px;
     text-align: center;
     width: 120px;
-    font-weight: bold;
+    font-weight: 500;
     color: #616161;
 }
 #noon{
@@ -215,8 +173,8 @@ li {
     width: 110px;
     margin: 0px;
     text-align: center;
-    font-size: 19px;
-    font-weight: bold;
+    font-size: 17px;
+    font-weight: 500;
     color: rgb(255, 255, 255);
 }
 #section1{
@@ -273,12 +231,13 @@ li {
 #lunch-price{
     position: absolute;
     left: 190px;
-    top: 2px;
+    top: 22px;
     padding: 10px;
 }
 #lunch-price li{
     font-size: 17px;
     width: 120px;
+    color: #707070;
 }
 /*좋아요 표시*/
 .like{
@@ -312,7 +271,7 @@ li {
     transform: translate(-50%,0);
     top: 7px;
     left: 50%;
-    width: 200px;
+    width: 300px;
 }
 #good{
     position: absolute;
@@ -360,7 +319,7 @@ li {
 .info-sq{
     width: 100%;
     left: 0px;
-    height: 125px;
+    height: 105px;
     background: #003876;   
     position: relative;
     top: -12px;
@@ -370,47 +329,47 @@ li {
 }
 #info-sq1{
     position: relative;
-    top: 6px;
+    top: 8px;
     left: 10px;
     color: #FFF;
     font-weight: lighter;
-    font-size: 13px;
+    font-size: 11px;
     font-family:Verdana, Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
 #info-sq2{
     position: relative;
-    top: -8px;
+    top: -2px;
     left: 10px;
     color: #FFF;
     font-family:Verdana, Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: lighter;
 }
 #info-sq3{
     position: relative;
-    top: -20px;
+    top: -12px;
     left: 10px;
     color: #FFF;
-    font-size: 13px;
+    font-size: 11px;
     font-family:Verdana, Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
 #info-sq4{
     position: relative;
-    top: -18px;
+    top: -12px;
     left: 10px;
     color: #FFF;
-    font-size: 13px;
+    font-size: 11px;
     font-family:Verdana, Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
 #info-sq5{
     position: relative;
-    top: -30px;
+    top: -20px;
     left: 10px;
     color: #FFF;
-    font-size: 13px;
+    font-size: 11px;
     font-family:Verdana, Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
@@ -422,9 +381,6 @@ li {
     position: relative; 
     top: -12px;
     text-align: center;
-}
-.final p{
-    font-family:Verdana, Arial, Helvetica, sans-serif;
 }
 #final1{
     position: absolute;

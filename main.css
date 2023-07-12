@@ -17,6 +17,7 @@ li {
     animation: fadeout 1s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
+    opacity: 0;
 }
 #yonsei1{
     position: absolute;
@@ -98,8 +99,8 @@ li {
 }
 #info1{
     position: absolute;
-    right: 12px;
-    top: 12px;
+    left: 12px;
+    bottom: 12px;
     width: 20px;
     height: auto;
     background-color: #fff;
@@ -117,11 +118,8 @@ li {
 #info_info{
     z-index: 1;
     position: absolute;
-    right: 5px;
-    top: 5px;
-    border-radius: 11px;
-    background: #FFF;
-    box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.15);
+    left: 35px;
+    bottom: -30px;
     flex-direction: column;
     height: 80px;
     width: 220px;
@@ -130,10 +128,8 @@ li {
 #info_info p{
     position: relative;
     font-size: 12px;
-    top: 7px;
-    left: 7px;
     margin: 10px;
-    width: 170px;
+    width: 300px;
 }
 /*클릭 이벤트 발생 지점*/
 .select{
@@ -156,10 +152,10 @@ li {
 #morning{
     z-index: 2;
     position: absolute;
-    top: 10px;
+    top: 12px;
     left: 8px;
     margin: 0px;
-    font-size: 17px;
+    font-size: 15px;
     text-align: center;
     width: 120px;
     font-weight: 500;
@@ -248,21 +244,22 @@ li {
     box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.15);
     flex-direction: column;
     height: 70px;
-    text-align: center;
 }
 #like1{
     position: absolute;
-    font-size: 18px;
-    left: 9px;
-    width: 226px;
-    opacity: 1;
+    font-size: 16px;
+    top: 3px;
+    left: 15px;
+    width: 300px;
+    text-align: left;
 }
 #like2{
     position: absolute;
     font-size: 10px;
-    left: 6px;
-    top: 32px;
-    width: 226px;
+    left: 15px;
+    top: 30px;
+    width: 300px;
+    text-align: left;
 }
 #afterlike{
     position: absolute;
@@ -304,8 +301,9 @@ li {
 .info-name{
     position: relative;
     left: 3px;
-    top: 15px;
-    font-size: 20px;
+    top: 17px;
+    font-size: 16px;
+    height:25px;
     font-weight: bold;
 }
 .info-line{
@@ -379,7 +377,7 @@ li {
     height: 53px;
     background: #dedede;   
     position: relative; 
-    top: -12px;
+    top: -10px;
     text-align: center;
 }
 #final1{

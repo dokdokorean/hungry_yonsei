@@ -17,7 +17,7 @@ li {
     animation: fadeout 1s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
-    opacity: 0;
+    opacity: 1;
 }
 #yonsei1{
     position: absolute;

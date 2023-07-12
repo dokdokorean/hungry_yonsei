@@ -96,11 +96,11 @@ if (hours>15){
     document.getElementById('info1').style.visibility='visible'
 }
 else{
-    document.getElementById('info1').style.visibility/='visible'
+    document.getElementById('info1').style.visibility='hidden'
 }
 
-
 // 여기서부터 수정
+
 if(localStorage.getItem('mor-menu1')){
 var mor_menu1 = localStorage.getItem('mor-menu1')}
     document.getElementById('mor-menu10').innerText=mor_menu1

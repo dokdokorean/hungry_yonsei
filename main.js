@@ -53,14 +53,13 @@ window.onload = function main(){
     //현재 년도 표시
 let date = new Date();
 var year = date.getFullYear()
-document.getElementById("year").innerText=year
 //현재 달 표시
 var month = date.getMonth()
-document.getElementById("month").innerText=month+1
 //현재 날짜 표시
 var day = date.getDate()
-document.getElementById("date").innerText=day
 //현재 요일 표시
+document.getElementById("year").innerText=year+'.'+(month+1)+'.'+day+'.'
+
 var day1 = date.getDay()
 if (day1==0){
     document.getElementById("day").innerText='( 일 )'

@@ -272,15 +272,13 @@ li {
 }
 #lunch-price{
     position: absolute;
-    left: 200px;
-    top: 10px;
+    left: 190px;
+    top: 2px;
+    padding: 10px;
 }
-#lunch-price p{
-    position: relative;
-    top: -2px;
-    margin: 16.5px;
-    width: 100px;
-    font-family:Verdana, Arial, Helvetica, sans-serif;
+#lunch-price li{
+    font-size: 17px;
+    width: 120px;
 }
 /*좋아요 표시*/
 .like{
@@ -304,7 +302,7 @@ li {
     position: absolute;
     font-size: 10px;
     left: 6px;
-    top: 30px;
+    top: 32px;
     width: 226px;
 }
 #afterlike{
@@ -323,7 +321,6 @@ li {
     width: 35px;
     height: auto;
 }
-
 #bad{
     position: absolute;
     top: 21px;
@@ -431,7 +428,7 @@ li {
 }
 #final1{
     position: absolute;
-    top: -4px;
+    top: 0px;
     left: 50%;
     transform: translate(-50%,0);
     width: 250px;
@@ -441,7 +438,7 @@ li {
 }
 #final2{
     position: absolute;
-    top: 10px;
+    top: 18px;
     left: 50%;
     transform: translate(-50%,0);
     width: 250px;
@@ -449,25 +446,5 @@ li {
     font-weight: lighter;
     color: black;
 }
-#final3{
-    position: absolute;
-    text-align: center;
-    top: 23px;
-    left: 50%;
-    transform: translate(-50%,0);
-    width: 290px;
-    font-size: 10px;
-    font-weight: lighter;
-    color: black;
-}
-#final4{
-    position: absolute;
-    text-align: center;
-    top: 23px;
-    left: -15px;
-    width: 100px;
-    font-size: 10px;
-    font-weight: lighter;
-    color: black;
-}
+
 

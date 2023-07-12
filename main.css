@@ -128,7 +128,7 @@ li {
 #day{
     position: relative;
     top: 5px;
-    left: 20px;
+    left: 5px;
     font-size: 17px;
     font-weight: normal;
     font-family:Verdana, Arial, Helvetica, sans-serif;
@@ -198,9 +198,11 @@ li {
 #morning{
     z-index: 2;
     position: absolute;
-    top: -9px;
-    left: 15px;
+    top: 10px;
+    left: 8px;
+    margin: 0px;
     font-size: 19px;
+    text-align: center;
     width: 120px;
     font-weight: bold;
     color: #616161;
@@ -208,9 +210,11 @@ li {
 #noon{
     z-index: 2;
     position: absolute;
-    top: -9px;
-    left: 185px;
-    width: 90px;
+    top: 10px;
+    left: 175px;
+    width: 110px;
+    margin: 0px;
+    text-align: center;
     font-size: 19px;
     font-weight: bold;
     color: rgb(255, 255, 255);

@@ -122,14 +122,14 @@ li {
     bottom: -30px;
     flex-direction: column;
     height: 80px;
-    width: 300px;
+    width: 85%;
     visibility: hidden;
 }
 #info_info p{
     position: relative;
     font-size: 12px;
     margin: 10px;
-    width: 300px;
+    width: 100%;
 }
 /*클릭 이벤트 발생 지점*/
 .select{
@@ -231,7 +231,7 @@ li {
     padding: 10px;
 }
 #lunch-price li{
-    font-size: 17px;
+    font-size: 23px;
     width: 120px;
     color: #707070;
 }
@@ -266,7 +266,6 @@ li {
     visibility: hidden;
     font-size: 17px;
     transform: translate(-50%,0);
-    text-align: center;
     top: 7px;
     left: 50%;
     width: 300px;
@@ -302,7 +301,7 @@ li {
 .info-name{
     position: relative;
     left: 3px;
-    top: 17px;
+    top: 25px;
     font-size: 16px;
     height:25px;
     font-weight: bold;
@@ -313,7 +312,7 @@ li {
     left: 0px;
     background-color: #FFCB45;
     position: relative; 
-    top: -5px;
+    top: 7px;
 }
 .info-sq{
     width: 100%;
@@ -321,7 +320,7 @@ li {
     height: 105px;
     background: #003876;   
     position: relative;
-    top: -12px;
+    top: 0px;
 }
 .info-sq p{
     width: 300px;
@@ -378,7 +377,7 @@ li {
     height: 53px;
     background: #dedede;   
     position: relative; 
-    top: -10px;
+    top: 0px;
     text-align: center;
 }
 #final1{
@@ -401,5 +400,3 @@ li {
     font-weight: lighter;
     color: black;
 }
-
-

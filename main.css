@@ -3,8 +3,9 @@ ul {
     list-style-position: inside;
 }
 li {
-    margin: 10px 0px;
+    margin:10px 0px;
 }
+
 .entry{
     z-index: 3;
     position: absolute;
@@ -211,6 +212,7 @@ li {
 #morning-menu{
     position: absolute;
     top: 20px;
+    left: 13px;
     padding: 10px;
 }
 #morning-menu li{
@@ -218,6 +220,7 @@ li {
 }
 #lunch-menu{
     position: absolute;
+    left: 13px;
     top: 20px;
     padding: 10px;
 }
@@ -226,13 +229,13 @@ li {
 }
 #lunch-price{
     position: absolute;
-    left: 190px;
+    left: 175px;
     top: 22px;
     padding: 10px;
 }
 #lunch-price li{
-    height: 27px;
-    font-size: 23px;
+    height: 28px;
+    font-size: 16px;
     width: 120px;
     color: #707070;
 }
@@ -266,8 +269,8 @@ li {
     position: absolute;
     visibility: hidden;
     font-size: 17px;
-    transform: translate(-50%,0);
-    top: 7px;
+    transform: translate(-28%,0);
+    top: 10px;
     left: 50%;
     width: 300px;
 }
@@ -401,3 +404,5 @@ li {
     font-weight: lighter;
     color: black;
 }
+
+

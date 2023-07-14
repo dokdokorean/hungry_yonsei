@@ -5,7 +5,9 @@ ul {
 li {
     margin:10px 0px;
 }
-
+html{
+    overflow:hidden;
+}
 .entry{
     z-index: 3;
     position: absolute;

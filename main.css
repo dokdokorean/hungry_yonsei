@@ -231,6 +231,7 @@ li {
     padding: 10px;
 }
 #lunch-price li{
+    height: 27px;
     font-size: 23px;
     width: 120px;
     color: #707070;

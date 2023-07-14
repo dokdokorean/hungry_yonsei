@@ -99,7 +99,7 @@ body{
     position: relative;
     font-size: 20px;
     font-weight: normal;
-    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-family:sans-serif;
 }
 .content{
     width: 100%;
@@ -245,6 +245,7 @@ body{
 #lunch-price li{
     height: 28px;
     font-size: 16px;
+    font-family: sans-serif;
     width: 120px;
     color: #707070;
 }

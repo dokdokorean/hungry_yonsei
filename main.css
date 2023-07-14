@@ -6,8 +6,15 @@ li {
     margin:10px 0px;
 }
 html{
-    overflow:hidden;
+    overflow:scroll;
 }
+body{
+    -ms-overflow-style: none;
+    }
+    
+   ::-webkit-scrollbar {
+     display: none;
+   }
 .entry{
     z-index: 3;
     position: absolute;

@@ -49,8 +49,21 @@ function noon_func(){
         document.getElementById('morning-menu').style.visibility='hidden'
         document.getElementById('lunch-menu').style.visibility='visible'
         document.getElementById('lunch-price').style.visibility='visible'
-
 }
+document.documentElement.addEventListener('touchstart', function (event) {
+    if (event.touches.length > 1) {
+         event.preventDefault(); 
+       } 
+   }, false);
+
+var lastTouchEnd = 0; 
+
+document.documentElement.addEventListener('touchend', function (event) {
+    var now = (new Date()).getTime();
+    if (now - lastTouchEnd <= 300) {
+         event.preventDefault(); 
+       } lastTouchEnd = now; 
+   }, false);
 window.onload = function main(){
     //현재 년도 표시
 let date = new Date();

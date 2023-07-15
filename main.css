@@ -234,7 +234,7 @@ body{
     padding: 10px;
 }
 #morning-menu li{
-    font-size: 19px;
+    font-size: 20px;
     height: 23px;
 }
 #lunch-menu{
@@ -244,7 +244,7 @@ body{
     padding: 10px;
 }
 #lunch-menu li{
-    font-size: 19px;
+    font-size: 20px;
     height: 23px;
 }
 #lunch-price{
@@ -255,10 +255,10 @@ body{
 }
 #lunch-price li{
     height: 23px;
-    font-size: 19px;
+    font-size: 20px;
     font-family: sans-serif;
     width: 120px;
-    color: #707070;
+    color: #000000;
 }
 /*좋아요 표시*/
 .like{

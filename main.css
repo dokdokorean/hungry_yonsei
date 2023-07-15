@@ -1,418 +1,91 @@
-ul {
-    text-align: left;
-    list-style-position: inside;
-}
-li {
-    margin:10px 0px;
-}
-html{
-    overflow:scroll;
-}
-body{
-    -ms-overflow-style: none;
-    }
-    
-   ::-webkit-scrollbar {
-     display: none;
-   }
-.entry{
-    z-index: 3;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    background-color:#ffffff;
-    align-items: center;
-    animation: fadeout 1s;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
-    opacity: 1;
-}
-#yonsei1{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    width: 76px;
-    height: 76px;    
-}
-.title{
-    width: 100%;
-    height: 60px;
-}
-.logo{
-    position: absolute; 
-    left: 50%; 
-    top: 20px; 
-    transform: translate(-35%,0%);
-    height: 40px; 
-    width: 150px;
-}
-#yonsei{
-    height: 37px; 
-    width: auto;
-    position: absolute;
-    top: 2px;
-}
-.logo h1{
-    position: absolute; 
-    top: -5px; 
-    left: 41px;
-    font-size:15px; 
-    width: 120px;
-    font-weight: bold;
-}
-.logo h2{
-    position: absolute; 
-    top: 11px; 
-    left: 41px;
-    font-size: 14px;
-    width: 120px;
-    font-weight: lighter;
-}
-.main{
-    position: relative;
-    height: 480px;
-    width: 100%;
-    align-items: center;
-}
-/*메인 컨텐츠 틀*/
-.main-content{
-    position: relative;
-    top: 5px;
-    border-radius: 11px;
-    background: #FFF;
-    box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.15);
-    flex-direction: column;
-    height: 450px;
-}
-.showdate{
-    position: absolute;
-    left: 15px;
-    top: -12px;
-}
-.showdate p{
-    float: left;
-}
-#year{
-    position: relative;
-    font-size: 20px;
-    font-weight: normal;
-    font-family:sans-serif;
-}
-.content{
-    width: 100%;
-    height: 600px;
-    position: absolute;
-    top: 35px;
-}
-#info1{
-    position: absolute;
-    left: 12px;
-    bottom: 12px;
-    width: 20px;
-    height: auto;
-    background-color: #fff;
-    width: 30px;
-    height: 30px;
-}
-#info{
-    z-index: 2;
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    width: 20px;
-    height: auto;
-}
-#info_info{
-    z-index: 1;
-    position: absolute;
-    left: 35px;
-    bottom: -30px;
-    flex-direction: column;
-    height: 80px;
-    width: 85%;
-    visibility: hidden;
-}
-#info_info p{
-    position: relative;
-    font-size: 12px;
-    margin: 10px;
-    width: 100%;
-}
-/*클릭 이벤트 발생 지점*/
-.select{
-    position: absolute; 
-    left: 50%; 
-    top: 5px; 
-    transform: translate(-50%,0%);
-    height: 40px; 
-    width: 300px;
-}
-#stick{
-    width: 1px;
-    height: 25px;
-    background-color: black;
-    position: absolute;
-    top: -7px;
-    left: 142px;
-}
-/*천식, 점심특식 스타일 바꾸기*/
-#morning{
-    z-index: 2;
-    position: absolute;
-    top: 12px;
-    left: 8px;
-    margin: 0px;
-    font-size: 15px;
-    text-align: center;
-    width: 120px;
-    font-weight: 500;
-    color: #616161;
-}
-#noon{
-    z-index: 2;
-    position: absolute;
-    top: 10px;
-    left: 175px;
-    width: 110px;
-    margin: 0px;
-    text-align: center;
-    font-size: 17px;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-}
-#section1{
-    z-index: 1;
-    position: absolute;
-    left: 0px;
-    top: -10px;
-    width: 135px;
-    height: 30px;
-    border-radius: 16px;
-    background: #003876;
-    visibility: hidden;
-}
-#section2{
-    z-index: 1;
-    position: absolute;
-    left: 162px;
-    top: -10px;
-    width: 135px;
-    height: 30px;
-    border-radius: 16px;
-    background: #003876;
-}
-
-@keyframes fadeout{
-    0%{
-        opacity: 1;
-    }
-    99%{
-        opacity: 0;
-        z-index: 2;
-    }
-    100%{
-        opacity: 0;
-        z-index: 0;
-    }
-}
-#morning-menu{
-    position: absolute;
-    top: 20px;
-    left: 13px;
-    padding: 10px;
-}
-#morning-menu li{
-    font-size: 23px;
-}
-#lunch-menu{
-    position: absolute;
-    left: 13px;
-    top: 20px;
-    padding: 10px;
-}
-#lunch-menu li{
-    font-size: 23px;
-}
-#lunch-price{
-    position: absolute;
-    left: 175px;
-    top: 22px;
-    padding: 10px;
-}
-#lunch-price li{
-    height: 28px;
-    font-size: 16px;
-    font-family: sans-serif;
-    width: 120px;
-    color: #707070;
-}
-/*좋아요 표시*/
-.like{
-    position: relative;
-    top: 15px;
-    border-radius: 11px;
-    background: #FFF;
-    box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.15);
-    flex-direction: column;
-    height: 70px;
-}
-#like1{
-    position: absolute;
-    font-size: 16px;
-    top: 3px;
-    left: 15px;
-    width: 300px;
-    text-align: left;
-}
-#like2{
-    position: absolute;
-    font-size: 10px;
-    left: 15px;
-    top: 30px;
-    width: 300px;
-    text-align: left;
-}
-#afterlike{
-    position: absolute;
-    visibility: hidden;
-    font-size: 17px;
-    transform: translate(-28%,0);
-    top: 10px;
-    left: 50%;
-    width: 300px;
-}
-#good{
-    position: absolute;
-    right: 73px;
-    top: 13px;
-    width: 35px;
-    height: auto;
-}
-#bad{
-    position: absolute;
-    top: 21px;
-    right: 18px;
-    width: 35px;
-    height: auto;
-}
-#stick2{
-    width: 1px;
-    height: 25px;
-    background-color: rgb(189, 189, 189);
-    position: absolute;
-    top: 5px;
-    right: 62px;
-}
-.info1{
-    position: relative;
-    width: 100%;
-    height: 60px;
-    top: 30px;
-}
-.info-name{
-    position: relative;
-    left: 3px;
-    top: 25px;
-    font-size: 16px;
-    height:25px;
-    font-weight: bold;
-}
-.info-line{
-    width: 100%;
-    height: 5px;
-    left: 0px;
-    background-color: #FFCB45;
-    position: relative; 
-    top: 7px;
-}
-.info-sq{
-    width: 100%;
-    left: 0px;
-    height: 105px;
-    background: #003876;   
-    position: relative;
-    top: 0px;
-}
-.info-sq p{
-    width: 300px;
-}
-#info-sq1{
-    position: relative;
-    top: 8px;
-    left: 10px;
-    color: #FFF;
-    font-weight: lighter;
-    font-size: 11px;
-    font-family:Verdana, Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-}
-#info-sq2{
-    position: relative;
-    top: -2px;
-    left: 10px;
-    color: #FFF;
-    font-family:Verdana, Arial, Helvetica, sans-serif;
-    font-size: 11px;
-    font-weight: lighter;
-}
-#info-sq3{
-    position: relative;
-    top: -12px;
-    left: 10px;
-    color: #FFF;
-    font-size: 11px;
-    font-family:Verdana, Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-}
-#info-sq4{
-    position: relative;
-    top: -12px;
-    left: 10px;
-    color: #FFF;
-    font-size: 11px;
-    font-family:Verdana, Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-}
-#info-sq5{
-    position: relative;
-    top: -20px;
-    left: 10px;
-    color: #FFF;
-    font-size: 11px;
-    font-family:Verdana, Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-}
-.final{
-    width: 100%;
-    left: 0px;
-    height: 53px;
-    background: #dedede;   
-    position: relative; 
-    top: 0px;
-    text-align: center;
-}
-#final1{
-    position: absolute;
-    top: 0px;
-    left: 50%;
-    transform: translate(-50%,0);
-    width: 250px;
-    font-size: 10px;
-    font-weight: lighter;
-    color: black;
-}
-#final2{
-    position: absolute;
-    top: 18px;
-    left: 50%;
-    transform: translate(-50%,0);
-    width: 250px;
-    font-size: 10px;
-    font-weight: lighter;
-    color: black;
-}
-
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="16x16">
+    <title>연세대 학식모지</title>
+    <link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+    <div class="entry">
+        <img id="yonsei1" src="yonsei.jpeg">
+    </div>
+    <div class="title">
+        <div class="logo">
+            <img id="yonsei" src="yonsei.jpeg">
+            <h1>연세대학교</h1>
+            <h2>학식모지</h1>
+        </div>            
+    </div>
+    <div class="main">
+        <div class="main-content">
+            <div class="showdate">
+                <p id="year">0000</p>
+            </div>
+            <div id="info1"><img id="info" src="info.png"></div>
+            <div id="info_info">
+                <p>당일 식재료가 다 떨어진 경우에는 대체 메뉴가 제공되어 식단과 다른 메뉴가 제공될 수 있습니다.</p>
+            </div>
+            <div class="content">
+                <div class="select">
+                    <p id="morning">천원의 아침밥</p>
+                    <p id="noon">오늘의 특식</p>
+                    <p id="section1"></p>
+                    <p id="section2"></p>
+                    <p id="stick"></p>
+                    <ul id="morning-menu">
+                        <li id="mor-menu10">mor menu1</li>
+                        <li id="mor-menu20">menu2</li>
+                        <li id="mor-menu30">menu3</li>
+                        <li id="mor-menu40">menu4</li>
+                        <li id="mor-menu50">menu5</li>
+                        <li id="mor-menu60">menu6</li>
+                        <li id="mor-menu70">menu7</li>
+                    </ul>
+                    <ul id="lunch-menu">
+                        <li id="lun-menu10">lun menu1</li>
+                        <li id="lun-menu20">menu2</li>
+                        <li id="lun-menu30">menu3</li>
+                        <li id="lun-menu40">menu4</li>
+                        <li id="lun-menu50">menu5</li>
+                        <li id="lun-menu60">menu6</li>
+                    </ul>
+                    <ul id="lunch-price" style="list-style-type:circle;">
+                        <li id="lun-menu10-price">0000 원</p>
+                        <li id="lun-menu20-price">0000 원</p>
+                        <li id="lun-menu30-price">0000 원</p>
+                        <li id="lun-menu40-price">0000 원</p>
+                        <li id="lun-menu50-price">0000 원</p>
+                        <li id="lun-menu60-price">0000 원</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="like">
+            <p id="like1">오늘의 식단, 마음에 드시나요?</p>
+            <p id="like2">사용자님의 소중한 의견이 학식의 발전을 이끕니다😆</p>
+            <p id="afterlike">소중한 의견 감사합니다!</p>
+            <img id="good" src="good.png">
+            <p id="stick2"></p>
+            <img id="bad" src="bad.png">
+        </div>
+    </div>
+    <div class="info1">
+        <p class="info-name">수목샘</p>         
+        <div class="info-line"></div>
+        <div class="info-sq">
+            <p id="info-sq1">학기 중 운영시간: [평일\토] 08:00 ~ 20:00</p>
+            <p id="info-sq2">방학 중 운영시간: [계절학기] 10:00 ~ 19:00</p>
+            <p id="info-sq3">[방학중] 10:00~15:00 [주말] 휴무</p>
+            <p id="info-sq4">TEL: 033-760-5158</p>
+            <p id="info-sq5">Location: 학생회관 1층</p>
+        </div>
+        <div class="final">
+            <p id="final1">COPYRIGHT 2023 배진우 all rights reserved</p>
+            <p id="final2">version 1.0</p>
+        </div>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

@@ -234,7 +234,8 @@ body{
     padding: 10px;
 }
 #morning-menu li{
-    font-size: 23px;
+    font-size: 19px;
+    height: 23px;
 }
 #lunch-menu{
     position: absolute;
@@ -243,7 +244,8 @@ body{
     padding: 10px;
 }
 #lunch-menu li{
-    font-size: 23px;
+    font-size: 19px;
+    height: 23px;
 }
 #lunch-price{
     position: absolute;
@@ -252,8 +254,8 @@ body{
     padding: 10px;
 }
 #lunch-price li{
-    height: 28px;
-    font-size: 16px;
+    height: 23px;
+    font-size: 19px;
     font-family: sans-serif;
     width: 120px;
     color: #707070;

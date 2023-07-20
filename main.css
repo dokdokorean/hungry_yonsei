@@ -277,7 +277,7 @@ body{
 }
 #cir2{
     position: relative;
-    top: 5px;
+    top: 9px;
     width: 5px;
     height: 5px;
     background-color: #FFCB45;
@@ -288,10 +288,13 @@ body{
     top: -20px;
     left: 5px;
     font-size: 14px;
+    font-family: sans-serif;
 }
 #lunch-menu2-1{
     position: relative;
     left: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
 }
 
 #lunch-menu3{
@@ -302,7 +305,7 @@ body{
 }
 #cir3{
     position: relative;
-    top: 5px;
+    top: 9px;
     width: 5px;
     height: 5px;
     background-color: #FFCB45;
@@ -317,6 +320,8 @@ body{
 #lunch-menu3-1{
     position: relative;
     left: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
 }
 
 #lunch-menu4{
@@ -327,7 +332,7 @@ body{
 }
 #cir4{
     position: relative;
-    top: 5px;
+    top: 9px;
     width: 5px;
     height: 5px;
     background-color: #FFCB45;
@@ -342,6 +347,8 @@ body{
 #lunch-menu4-1{
     position: relative;
     left: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
 }
 
 #lunch-menu5{
@@ -358,7 +365,7 @@ body{
 }
 #cir5{
     position: relative;
-    top: 5px;
+    top: 9px;
     width: 5px;
     height: 5px;
     background-color: #FFCB45;
@@ -367,6 +374,8 @@ body{
 #lunch-menu5-1{
     position: relative;
     left: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
 }
 
 /*좋아요 표시*/
@@ -534,5 +543,3 @@ body{
     font-weight: lighter;
     color: black;
 }
-
-

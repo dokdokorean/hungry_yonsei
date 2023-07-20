@@ -234,7 +234,7 @@ body{
     padding: 10px;
 }
 #morning-menu li{
-    font-size: 20px;
+    font-size: 19px;
     height: 23px;
 }
 #lunch-menu{
@@ -242,24 +242,133 @@ body{
     left: 13px;
     top: 20px;
     padding: 10px;
+    display: inline-flex;
+    flex-direction: column;
 }
 #lunch-menu li{
-    font-size: 20px;
+    font-size: 19px;
     height: 23px;
 }
-#lunch-price{
+
+#lunch-menu1{
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    top: 10px;
+}
+#cir1{
+    position: relative;
+    top: 5px;
+    width: 5px;
+    height: 5px;
+    background-color: #FF6745;
+    border-radius: 3px;
+}
+#lunch-menu1-1{
+    position: relative;
+    left: 10px;
+}
+
+#lunch-menu2{
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    top: 10px;
+}
+#cir2{
+    position: relative;
+    top: 5px;
+    width: 5px;
+    height: 5px;
+    background-color: #FFCB45;
+    border-radius: 3px;
+}
+#a-menu{
     position: absolute;
-    left: 175px;
-    top: 22px;
-    padding: 10px;
+    top: -20px;
+    left: 5px;
+    font-size: 14px;
 }
-#lunch-price li{
-    height: 23px;
-    font-size: 17px;
-    font-family: sans-serif;
-    width: 120px;
-    color: #000000;
+#lunch-menu2-1{
+    position: relative;
+    left: 10px;
 }
+
+#lunch-menu3{
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    top: 10px;
+}
+#cir3{
+    position: relative;
+    top: 5px;
+    width: 5px;
+    height: 5px;
+    background-color: #FFCB45;
+    border-radius: 3px;
+}
+#b-menu{
+    position: absolute;
+    top: -20px;
+    left: 5px;
+    font-size: 14px;
+}
+#lunch-menu3-1{
+    position: relative;
+    left: 10px;
+}
+
+#lunch-menu4{
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    top: 10px;
+}
+#cir4{
+    position: relative;
+    top: 5px;
+    width: 5px;
+    height: 5px;
+    background-color: #FFCB45;
+    border-radius: 3px;
+}
+#c-menu{
+    position: absolute;
+    top: -20px;
+    left: 5px;
+    font-size: 14px;
+}
+#lunch-menu4-1{
+    position: relative;
+    left: 10px;
+}
+
+#lunch-menu5{
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    top: 10px;
+}
+#d-menu{
+    position: absolute;
+    top: -20px;
+    left: 5px;
+    font-size: 14px;
+}
+#cir5{
+    position: relative;
+    top: 5px;
+    width: 5px;
+    height: 5px;
+    background-color: #FFCB45;
+    border-radius: 3px;
+}
+#lunch-menu5-1{
+    position: relative;
+    left: 10px;
+}
+
 /*좋아요 표시*/
 .like{
     position: relative;

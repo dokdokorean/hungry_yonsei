@@ -19,7 +19,7 @@ var bad = document.getElementById('bad');
     });
     //list open animation
 let keyframes1 = [
-        {opacity: 0.5},
+        {opacity: 0},
         {opacity: 1, transform: "translate(-250px, 0)"}
       ];
 let options1 = {
@@ -34,7 +34,7 @@ var list =document.getElementById('menu');
       //list exit button
       let keyframes2 = [
         {opacity: 1},
-        {opacity: 0.5, transform: "translate(250px, 0)"}
+        {opacity: 0, transform: "translate(0px, 0)"}
       ];
 let options2 = {
             duration: 600,

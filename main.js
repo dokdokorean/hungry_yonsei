@@ -17,6 +17,37 @@ var bad = document.getElementById('bad');
         document.getElementById('afterlike').style.visibility='visible'
         console.log('1')
     });
+    //list open animation
+let keyframes1 = [
+        {opacity: 0.5},
+        {opacity: 1, transform: "translate(-250px, 0)"}
+      ];
+let options1 = {
+            duration: 600,
+            fill: "forwards"
+      };
+var list =document.getElementById('menu');
+    list.addEventListener('click',function(event){
+        document.getElementById('list').animate(keyframes1, options1);
+    })
+
+      //list exit button
+      let keyframes2 = [
+        {opacity: 1},
+        {opacity: 0.5, transform: "translate(250px, 0)"}
+      ];
+let options2 = {
+            duration: 600,
+            fill: "forwards"
+      };
+var list =document.getElementById('exit');
+    list.addEventListener('click',function(event){
+        document.getElementById('list').animate(keyframes2, options2);
+    })
+function sub1(){
+    window.open('sub1.html');
+}
+
 var morning1 = document.getElementById('morning');
     morning1.addEventListener('click', function morning0(event){
         morning_func()
@@ -39,7 +70,6 @@ function morning_func(){
         document.getElementById('noon').style.color='#616161'
         document.getElementById('morning-menu').style.visibility='visible'
         document.getElementById('lunch-menu').style.visibility='hidden'
-        document.getElementById('lunch-price').style.visibility='hidden'
 }
 function noon_func(){
     document.getElementById('noon').style.color='#fff'
@@ -48,7 +78,6 @@ function noon_func(){
         document.getElementById('morning').style.color='#616161'
         document.getElementById('morning-menu').style.visibility='hidden'
         document.getElementById('lunch-menu').style.visibility='visible'
-        document.getElementById('lunch-price').style.visibility='visible'
 }
 document.documentElement.addEventListener('touchstart', function (event) {
     if (event.touches.length > 1) {
@@ -64,6 +93,7 @@ document.documentElement.addEventListener('touchend', function (event) {
          event.preventDefault(); 
        } lastTouchEnd = now; 
    }, false);
+
 window.onload = function main(){
     //현재 년도 표시
 let date = new Date();
@@ -162,4 +192,6 @@ if(localStorage.getItem('lun-menu5')){
 if(localStorage.getItem('lun-menu6')){
     var lun_menu6 = localStorage.getItem('lun-menu6')}
     document.getElementById('lun-menu60').innerText=lun_menu6
+
+
 }

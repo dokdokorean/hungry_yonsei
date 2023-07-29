@@ -28,6 +28,7 @@ let options1 = {
       };
 var list =document.getElementById('menu');
     list.addEventListener('click',function(event){
+        document.getElementById('list').style.display='block';
         document.getElementById('list').animate(keyframes1, options1);
     })
 
@@ -43,6 +44,7 @@ let options2 = {
 var list =document.getElementById('exit');
     list.addEventListener('click',function(event){
         document.getElementById('list').animate(keyframes2, options2);
+        setTimeout(() => document.getElementById('list').style.display='none', 600);
     })
 function sub1(){
     window.open('sub1.html');

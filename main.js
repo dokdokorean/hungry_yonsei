@@ -23,7 +23,7 @@ let keyframes1 = [
         {opacity: 1, transform: "translate(-250px, 0)"}
       ];
 let options1 = {
-            duration: 600,
+            duration: 400,
             fill: "forwards"
       };
 var list =document.getElementById('menu');
@@ -38,7 +38,7 @@ var list =document.getElementById('menu');
         {opacity: 0, transform: "translate(0px, 0)"}
       ];
 let options2 = {
-            duration: 600,
+            duration: 400,
             fill: "forwards"
       };
 var list =document.getElementById('exit');

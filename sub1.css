@@ -36,7 +36,7 @@ body{
     display: flex;
     align-items:center
 }
-.logo{
+#logo{
     position: absolute; 
     left: 50%; 
     top: 20px; 
@@ -44,7 +44,7 @@ body{
     height: 40px; 
     width: 150px;
 }
-.logo h1{
+#logo h1{
     position: absolute; 
     top: -5px; 
     left: 41px;
@@ -52,7 +52,7 @@ body{
     width: 120px;
     font-weight: bold;
 }
-.logo h2{
+#logo h2{
     position: absolute; 
     top: 11px; 
     left: 41px;
@@ -60,11 +60,11 @@ body{
     width: 120px;
     font-weight: lighter;
 }
-#menu{
+#exit{
     position: absolute;
-    height: 18px;
+    height: 22px;
     width: auto;
-    right: 10px;
+    right: 20px;
 }
 .main-img img{
     width: 100%;
@@ -116,7 +116,7 @@ body{
     font-weight: 700;
     height: 1px;
     font-size: 22px;
-
+    font-family: sans-serif;
 }
 #TEL-content{
     position: relative;
@@ -131,6 +131,7 @@ body{
     font-weight: 700;
     height: 1px;
     font-size: 22px;
+    font-family: sans-serif;
 }
 #loc-content{
     position: relative;

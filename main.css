@@ -43,8 +43,8 @@ body{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    width: 76px;
-    height: 76px;    
+    width: 70px;
+    height: 70px;    
 }
 .title{
     width: 100%;
@@ -163,6 +163,31 @@ body{
     width: 20px;
     height: auto;
 }
+#tomar{
+    z-index: 1;
+    position: absolute;
+    top: 205px;
+    right: 10px;
+    height: auto;
+    width: 20px;
+}
+#tom-arrow1{
+    height: auto;
+    width: 20px;
+    rotate: 180deg;
+}
+#yesar{
+    z-index: 1;
+    position: absolute;
+    top: 205px;
+    left: 10px;
+    height: auto;
+    width: 20px;
+}
+#yes-arrow1{
+    height: auto;
+    width: 20px;
+}
 #info_info{
     z-index: 1;
     position: absolute;
@@ -197,7 +222,7 @@ body{
     left: 142px;
 }
 /*천식, 점심특식 스타일 바꾸기*/
-#morning{
+#china{
     z-index: 2;
     position: absolute;
     top: 12px;
@@ -212,12 +237,12 @@ body{
 #noon{
     z-index: 2;
     position: absolute;
-    top: 10px;
+    top: 12px;
     left: 175px;
     width: 110px;
     margin: 0px;
     text-align: center;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 500;
     color: rgb(255, 255, 255);
 }
@@ -256,13 +281,13 @@ body{
         z-index: 0;
     }
 }
-#morning-menu{
+#china-menu{
     position: absolute;
     top: 20px;
     left: 13px;
     padding: 10px;
 }
-#morning-menu li{
+#china-menu li{
     font-size: 19px;
     height: 23px;
 }

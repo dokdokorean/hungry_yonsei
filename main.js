@@ -29,6 +29,7 @@ var list1 =document.getElementById('menu');
     list1.addEventListener('click',function(event){
         document.getElementById('list').style.display='block';
         document.getElementById('list').animate(keyframes1, options1);
+        setTimeout(()=>{},600);
     })
 
       //list exit button
@@ -43,7 +44,7 @@ let options2 = {
 var list2 =document.getElementById('exit');
     list2.addEventListener('click',function(event){
         document.getElementById('list').animate(keyframes2, options2);
-        setTimeout(() => document.getElementById('list').style.display='none', 3000);
+        setTimeout(() => document.getElementById('list').style.display='none', 600);
     })
 function sub1(){
     window.open('sub1.html');
@@ -153,7 +154,7 @@ var currentDate = new Date();
        
            document.getElementById("year").innerText=year+'.'+(month+1)+'.'+day+'.'+day10
        });
-       
+
 window.onload = function main(){
     //현재 년도 표시
 let date = new Date();

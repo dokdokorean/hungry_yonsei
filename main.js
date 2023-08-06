@@ -96,64 +96,52 @@ document.documentElement.addEventListener('touchend', function (event) {
        } lastTouchEnd = now; 
    }, false);
 
-var currentDate = new Date();
-   var tommorrow1 = document.getElementById('tomar');
-       tommorrow1.addEventListener('click', function (event){
-           currentDate.setDate(currentDate.getDate() + 1); // 현재 날짜에 1일을 더하여 다음 날짜로 설정
-           //현재 년도 표시
-           var year = currentDate.getFullYear()
-           //현재 달 표시
-           var month = currentDate.getMonth()
-           //현재 날짜 표시
-           var day = currentDate.getDate()
-           //현재 요일 표시
-           var day1 = currentDate.getDay()+1
-           if (day1==0){
-               var day10 = '( 일 )'}
-           else if(day1==1){
-               var day10 = '( 월 )'}
-           else if(day1==2){
-               var day10 = '( 화 )'}
-           else if(day1==3){
-               var day10 = '( 수 )'}
-           else if(day1==4){
-               var day10 = '( 목 )'}
-           else if(day1==5){
-               var day10 = '( 금 )'}
-           else if(day1==6){
-               var day10 = '( 토 )'}
-       
-           document.getElementById("year").innerText=year+'.'+(month+1)+'.'+day+'.'+day10
-       });
+   var currentDate = new Date();
+
+   function updateDisplay() {
+     // 현재 년도 표시
+     var year = currentDate.getFullYear();
+     // 현재 달 표시
+     var month = currentDate.getMonth();
+     // 현재 날짜 표시
+     var day = currentDate.getDate();
+     // 현재 요일 표시
+     var day1 = currentDate.getDay();
+   
+     var day10;
+     if (day1 === 0) {
+       day10 = '( 일 )';
+     } else if (day1 === 1) {
+       day10 = '( 월 )';
+     } else if (day1 === 2) {
+       day10 = '( 화 )';
+     } else if (day1 === 3) {
+       day10 = '( 수 )';
+     } else if (day1 === 4) {
+       day10 = '( 목 )';
+     } else if (day1 === 5) {
+       day10 = '( 금 )';
+     } else if (day1 === 6) {
+       day10 = '( 토 )';
+     }
+     document.getElementById('year').innerText = year + '.' + (month + 1) + '.' + day + '.' + day10;
+   }
+   
+   var tomorrow1 = document.getElementById('tomar');
+   tomorrow1.addEventListener('click', function (event) {
+     currentDate.setDate(currentDate.getDate() + 1); // 현재 날짜에 1일을 더하여 다음 날짜로 설정
+     updateDisplay();
+   });
    
    var yesterday1 = document.getElementById('yesar');
-       yesterday1.addEventListener('click', function (event){
-           currentDate.setDate(currentDate.getDate() - 1); // 현재 날짜에 1일을 빼서 다음 날짜로 설정
-           //현재 년도 표시
-           var year = currentDate.getFullYear()
-           //현재 달 표시
-           var month = currentDate.getMonth()
-           //현재 날짜 표시
-           var day = currentDate.getDate()
-           //현재 요일 표시
-           var day1 = currentDate.getDay()-1
-           if (day1==0){
-               var day10 = '( 일 )'}
-           else if(day1==1){
-               var day10 = '( 월 )'}
-           else if(day1==2){
-               var day10 = '( 화 )'}
-           else if(day1==3){
-               var day10 = '( 수 )'}
-           else if(day1==4){
-               var day10 = '( 목 )'}
-           else if(day1==5){
-               var day10 = '( 금 )'}
-           else if(day1==6){
-               var day10 = '( 토 )'}
-       
-           document.getElementById("year").innerText=year+'.'+(month+1)+'.'+day+'.'+day10
-       });
+   yesterday1.addEventListener('click', function (event) {
+     currentDate.setDate(currentDate.getDate() - 1); // 현재 날짜에 1일을 빼서 이전 날짜로 설정
+     updateDisplay();
+   });
+   
+   // 초기화면 설정
+   updateDisplay();
+   
 
 window.onload = function main(){
     //현재 년도 표시

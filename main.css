@@ -204,6 +204,22 @@ body{
     margin: 10px;
     width: 100%;
 }
+#red{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    height: 23px;
+    width: auto;
+    visibility: hidden;
+}
+#blue{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    height: 23px;
+    width: auto;
+    visibility: visible;
+}
 /*클릭 이벤트 발생 지점*/
 .select{
     position: absolute; 
@@ -503,6 +519,7 @@ body{
     height:25px;
     font-weight: bold;
 }
+
 .info-line{
     width: 100%;
     height: 5px;

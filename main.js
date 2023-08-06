@@ -108,7 +108,7 @@ var currentDate = new Date();
            var day = currentDate.getDate()
            //현재 요일 표시
            var day1 = currentDate.getDay()+1
-           if (day1==0 || day1==7){
+           if (day1==0){
                var day10 = '( 일 )'}
            else if(day1==1){
                var day10 = '( 월 )'}
@@ -137,7 +137,7 @@ var currentDate = new Date();
            var day = currentDate.getDate()
            //현재 요일 표시
            var day1 = currentDate.getDay()-1
-           if (day1==0 || day1==7){
+           if (day1==0){
                var day10 = '( 일 )'}
            else if(day1==1){
                var day10 = '( 월 )'}
@@ -149,7 +149,7 @@ var currentDate = new Date();
                var day10 = '( 목 )'}
            else if(day1==5){
                var day10 = '( 금 )'}
-           else if(day1==6 || day1==-1){
+           else if(day1==6){
                var day10 = '( 토 )'}
        
            document.getElementById("year").innerText=year+'.'+(month+1)+'.'+day+'.'+day10
@@ -191,12 +191,12 @@ else{
     noon_func()
 }
 
-if (hours>15){
-    document.getElementById('info1').style.visibility='visible'
+if (day1<0 && hours>8 && hours <20){
+    document.getElementById('blue').style.visibility='visible'
+    document.getElementById('red').style.visibility='hidden'
 }
 else{
-    document.getElementById('info1').style.visibility='visible'
+    document.getElementById('red').style.visibility='visible'
+    document.getElementById('blue').style.visibility='hidden'
 }
-
-
 }

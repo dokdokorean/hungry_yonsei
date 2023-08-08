@@ -59,42 +59,42 @@ var noon1 = document.getElementById('noon');
     noon1.addEventListener('click', function noon0(event){
         noon_func()
     });
-
+function info10(){
+    document.getElementById('info_info').style.visibility='visible'
+        setTimeout(() => document.getElementById('info_info').style.visibility='hidden', 4200);
+}
 var info = document.getElementById('info1');
     info.addEventListener('click', function (event){
-        document.getElementById('info_info').style.visibility='visible'
-        setTimeout(() => document.getElementById('info_info').style.visibility='hidden', 3300);
+        info10()
     });
 function china_func(){
             document.getElementById('china').style.color='#fff'
         document.getElementById('section1').style.visibility='visible'
         document.getElementById('section2').style.visibility='hidden'
         document.getElementById('noon').style.color='#616161'
-        document.getElementById('china-menu').style.visibility='visible'
-        document.getElementById('lunch-menu').style.visibility='hidden'
-}
+        const chinaMenus = document.getElementsByClassName('china-menu');
+            for (let i = 0; i < chinaMenus.length; i++) {
+            chinaMenus[i].style.visibility = 'visible';
+            }
+        const lunchMenus = document.getElementsByClassName('lunch-menu');
+            for (let i = 0; i < lunchMenus.length; i++) {
+            lunchMenus[i].style.visibility = 'hidden';
+            }}
 function noon_func(){
     document.getElementById('noon').style.color='#fff'
         document.getElementById('section2').style.visibility='visible'
         document.getElementById('section1').style.visibility='hidden'
         document.getElementById('china').style.color='#616161'
-        document.getElementById('china-menu').style.visibility='hidden'
-        document.getElementById('lunch-menu').style.visibility='visible'
-}
-document.documentElement.addEventListener('touchstart', function (event) {
-    if (event.touches.length > 1) {
-         event.preventDefault(); 
-       } 
-   }, false);
+        const chinaMenus = document.getElementsByClassName('china-menu');
+            for (let i = 0; i < chinaMenus.length; i++) {
+            chinaMenus[i].style.visibility = 'hidden';
+            }
+        const lunchMenus = document.getElementsByClassName('lunch-menu');
+            for (let i = 0; i < lunchMenus.length; i++) {
+            lunchMenus[i].style.visibility = 'visible';
+            }
+        }
 
-var lastTouchEnd = 0; 
-
-document.documentElement.addEventListener('touchend', function (event) {
-    var now = (new Date()).getTime();
-    if (now - lastTouchEnd <= 300) {
-         event.preventDefault(); 
-       } lastTouchEnd = now; 
-   }, false);
 
    var currentDate = new Date();
 
@@ -113,16 +113,52 @@ document.documentElement.addEventListener('touchend', function (event) {
        day10 = '( 일 )';
      } else if (day1 === 1) {
        day10 = '( 월 )';
+       document.getElementById('mon').style.display='block'
+       document.getElementById('tue').style.display='none'
+       document.getElementById('wend').style.display='none'
+       document.getElementById('thur').style.display='none'
+       document.getElementById('fri').style.display='none'
+       document.getElementById('end').style.display='none'
      } else if (day1 === 2) {
        day10 = '( 화 )';
+       document.getElementById('mon').style.display='none'
+       document.getElementById('tue').style.display='block'
+       document.getElementById('wend').style.display='none'
+       document.getElementById('thur').style.display='none'
+       document.getElementById('fri').style.display='none'
+       document.getElementById('end').style.display='none'
      } else if (day1 === 3) {
        day10 = '( 수 )';
+       document.getElementById('mon').style.display='none'
+       document.getElementById('tue').style.display='none'
+       document.getElementById('wend').style.display='block'
+       document.getElementById('thur').style.display='none'
+       document.getElementById('fri').style.display='none'
+       document.getElementById('end').style.display='none'
      } else if (day1 === 4) {
        day10 = '( 목 )';
+       document.getElementById('mon').style.display='none'
+       document.getElementById('tue').style.display='none'
+       document.getElementById('wend').style.display='none'
+       document.getElementById('thur').style.display='block'
+       document.getElementById('fri').style.display='none'
+       document.getElementById('end').style.display='none'
      } else if (day1 === 5) {
        day10 = '( 금 )';
+       document.getElementById('mon').style.display='none'
+       document.getElementById('tue').style.display='none'
+       document.getElementById('wend').style.display='none'
+       document.getElementById('thur').style.display='none'
+       document.getElementById('fri').style.display='block'
+       document.getElementById('end').style.display='none'
      } else if (day1 === 6) {
        day10 = '( 토 )';
+       document.getElementById('mon').style.display='none'
+       document.getElementById('tue').style.display='none'
+       document.getElementById('wend').style.display='none'
+       document.getElementById('thur').style.display='none'
+       document.getElementById('fri').style.display='none'
+       document.getElementById('end').style.display='block'
      }
      document.getElementById('year').innerText = year + '.' + (month + 1) + '.' + day + '.' + day10;
    }
@@ -157,9 +193,13 @@ var day1 = date.getDay()
 if (day1==0){
     var day10 = '( 일 )'}
 else if(day1==1){
-    var day10 = '( 월 )'}
+    var day10 = '( 월 )'
+    document.getElementById('mon').style.display='block'
+    document.getElementById('tue').style.display='none'}
 else if(day1==2){
-    var day10 = '( 화 )'}
+    var day10 = '( 화 )'
+    document.getElementById('mon').style.display='none'
+    document.getElementById('tue').style.display='block'}
 else if(day1==3){
     var day10 = '( 수 )'}
 else if(day1==4){
@@ -179,7 +219,7 @@ else{
     noon_func()
 }
 
-if (day1<0 && hours>8 && hours <20){
+if (day1>0 && hours>8 && hours <20){
     document.getElementById('blue').style.visibility='visible'
     document.getElementById('red').style.visibility='hidden'
 }
@@ -187,4 +227,5 @@ else{
     document.getElementById('red').style.visibility='visible'
     document.getElementById('blue').style.visibility='hidden'
 }
+info10()
 }

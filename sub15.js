@@ -12,13 +12,23 @@ var day1 = date.getDay()
 let min = date.getMinutes()/60;
 
 let hours=date.getHours()+min;
-
-if(day1>=0 && day1<6 && hours>10.5 && hours < 18.5){
+//평일
+if( day1 > 0 && day1<6 && hours>=8.5 && hours <=18.66){
     document.getElementById('closed').style.visibility="hidden"
     document.getElementById('open').style.visibility='visible'
 }
-else{
+//토요일
+//일요일
+else if(hours>=11 && hours<17){
     document.getElementById('closed').style.visibility="visible"
     document.getElementById('open').style.visibility='hidden'
 }
 }
+var exit =document.getElementById('exit');
+    exit.addEventListener('click',function(event){
+        window.close('sub1.html')
+    })
+var logo =document.getElementById('logo');
+    logo.addEventListener('click',function(event){
+        window.close('sub1.html')
+    })

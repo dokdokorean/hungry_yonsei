@@ -13,7 +13,7 @@ let min = date.getMinutes()/60;
 
 let hours=date.getHours()+min;
 
-if(day1>=0 && day1<6 && hours>10.5 && hours < 18.5){
+if( day1 >0 && day1<6 && hours>=10 && hours < 18){
     document.getElementById('closed').style.visibility="hidden"
     document.getElementById('open').style.visibility='visible'
 }
@@ -22,3 +22,11 @@ else{
     document.getElementById('open').style.visibility='hidden'
 }
 }
+var exit =document.getElementById('exit');
+    exit.addEventListener('click',function(event){
+        window.close('sub1.html')
+    })
+var logo =document.getElementById('logo');
+    logo.addEventListener('click',function(event){
+        window.close('sub1.html')
+    })

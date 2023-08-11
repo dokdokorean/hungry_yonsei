@@ -30,9 +30,11 @@ else{
     document.getElementById('open').style.visibility='hidden'
 }
 }
+function closeWebView() {
+    window.close('sub1.html')
+}
 var exit =document.getElementById('exit');
     exit.addEventListener('click',function(event){
-        alert('closeWebView')
         window.close('sub1.html')
     })
 var logo =document.getElementById('logo');

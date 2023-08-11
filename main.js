@@ -49,6 +49,63 @@ var list2 =document.getElementById('exit');
 function sub1(){
     window.open('sub1.html');
 }
+function sub2(){
+  window.open('sub2.html');
+}
+function sub3(){
+  window.open('sub3.html');
+}
+function sub5(){
+  window.open('sub4.html');
+}
+function sub6(){
+  window.open('sub5.html');
+}
+function sub7(){
+  window.open('sub6.html');
+}
+function sub8(){
+  window.open('sub7.html');
+}
+function sub9(){
+  window.open('sub8.html');
+}
+function sub10(){
+  window.open('sub9.html');
+}
+function sub11(){
+  window.open('sub10.html');
+}
+function sub12(){
+  window.open('sub11.html');
+}
+function sub13(){
+  window.open('sub12.html');
+}
+function sub14(){
+  window.open('sub13.html');
+}
+function sub15(){
+  window.open('sub14.html');
+}
+function sub16(){
+  window.open('sub15.html');
+}
+function sub161(){
+  window.open('sub161.html');
+}
+function sub17(){
+  window.open('sub17.html');
+}
+function sub18(){
+  window.open('sub18.html');
+}
+function sub19(){
+  window.open('sub19.html');
+}
+function sub20(){
+  window.open('sub20.html');
+}
 
 var china = document.getElementById('china');
     china.addEventListener('click', function morning0(event){
@@ -111,6 +168,12 @@ function noon_func(){
      var day10;
      if (day1 === 0) {
        day10 = '( 일 )';
+       document.getElementById('mon').style.display='none'
+       document.getElementById('tue').style.display='none'
+       document.getElementById('wend').style.display='none'
+       document.getElementById('thur').style.display='none'
+       document.getElementById('fri').style.display='none'
+       document.getElementById('end').style.display='block'
      } else if (day1 === 1) {
        day10 = '( 월 )';
        document.getElementById('mon').style.display='block'
@@ -190,24 +253,63 @@ var day = date.getDate()
 //현재 요일 표시
 
 var day1 = date.getDay()
-if (day1==0){
-    var day10 = '( 일 )'}
-else if(day1==1){
-    var day10 = '( 월 )'
-    document.getElementById('mon').style.display='block'
-    document.getElementById('tue').style.display='none'}
-else if(day1==2){
-    var day10 = '( 화 )'
+if (day1 === 0) {
+    day10 = '( 일 )';
     document.getElementById('mon').style.display='none'
-    document.getElementById('tue').style.display='block'}
-else if(day1==3){
-    var day10 = '( 수 )'}
-else if(day1==4){
-    var day10 = '( 목 )'}
-else if(day1==5){
-    var day10 = '( 금 )'}
-else if(day1==6){
-    var day10 = '( 토 )'}
+    document.getElementById('tue').style.display='none'
+    document.getElementById('wend').style.display='none'
+    document.getElementById('thur').style.display='none'
+    document.getElementById('fri').style.display='none'
+    document.getElementById('end').style.display='block'
+  } else if (day1 === 1) {
+    day10 = '( 월 )';
+    document.getElementById('mon').style.display='block'
+    document.getElementById('tue').style.display='none'
+    document.getElementById('wend').style.display='none'
+    document.getElementById('thur').style.display='none'
+    document.getElementById('fri').style.display='none'
+    document.getElementById('end').style.display='none'
+  } else if (day1 === 2) {
+    day10 = '( 화 )';
+    document.getElementById('mon').style.display='none'
+    document.getElementById('tue').style.display='block'
+    document.getElementById('wend').style.display='none'
+    document.getElementById('thur').style.display='none'
+    document.getElementById('fri').style.display='none'
+    document.getElementById('end').style.display='none'
+  } else if (day1 === 3) {
+    day10 = '( 수 )';
+    document.getElementById('mon').style.display='none'
+    document.getElementById('tue').style.display='none'
+    document.getElementById('wend').style.display='block'
+    document.getElementById('thur').style.display='none'
+    document.getElementById('fri').style.display='none'
+    document.getElementById('end').style.display='none'
+  } else if (day1 === 4) {
+    day10 = '( 목 )';
+    document.getElementById('mon').style.display='none'
+    document.getElementById('tue').style.display='none'
+    document.getElementById('wend').style.display='none'
+    document.getElementById('thur').style.display='block'
+    document.getElementById('fri').style.display='none'
+    document.getElementById('end').style.display='none'
+  } else if (day1 === 5) {
+    day10 = '( 금 )';
+    document.getElementById('mon').style.display='none'
+    document.getElementById('tue').style.display='none'
+    document.getElementById('wend').style.display='none'
+    document.getElementById('thur').style.display='none'
+    document.getElementById('fri').style.display='block'
+    document.getElementById('end').style.display='none'
+  } else if (day1 === 6) {
+    day10 = '( 토 )';
+    document.getElementById('mon').style.display='none'
+    document.getElementById('tue').style.display='none'
+    document.getElementById('wend').style.display='none'
+    document.getElementById('thur').style.display='none'
+    document.getElementById('fri').style.display='none'
+    document.getElementById('end').style.display='block'
+  }
 
 document.getElementById("year").innerText=year+'.'+(month+1)+'.'+day+'.'+day10
 //현재 시간 표시(사용자 접근성 향상)

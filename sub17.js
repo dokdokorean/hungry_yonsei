@@ -22,3 +22,11 @@ else{
     document.getElementById('open').style.visibility='hidden'
 }
 }
+var exit =document.getElementById('exit');
+    exit.addEventListener('click',function(event){
+        window.close('sub1.html')
+    })
+var logo =document.getElementById('logo');
+    logo.addEventListener('click',function(event){
+        window.close('sub1.html')
+    })

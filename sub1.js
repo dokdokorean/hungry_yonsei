@@ -31,8 +31,7 @@ else{
 }
 }
 function closeWebView() {
-    window.close('sub1.html')
-    alert('closeWebView')
+    window.close()
 }
 var exit =document.getElementById('exit');
     exit.addEventListener('click',function(event){

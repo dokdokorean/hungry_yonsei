@@ -32,11 +32,7 @@ else{
 }
 var exit =document.getElementById('exit');
     exit.addEventListener('click',function(event){
-        function closeWebView() {
-    // Android WebView에서 closeWebView를 감지하여 앱 종료
-    alert('closeWebView');
-}
-
+        alert('closeWebView')
         window.close('sub1.html')
     })
 var logo =document.getElementById('logo');

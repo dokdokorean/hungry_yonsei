@@ -7,10 +7,6 @@
 
 가끔 에타에 올라오는 천식의 사진을 보면서, 혹은 오늘 밥을 먹으러갔던 친구의 이야기를 들으며 ‘ 아 오늘 맛있는 메뉴였네 먹으러 갈걸’ 이거나 막상 먹으러가서 ‘아 오늘 별론데 괜히 왔다’ 이라는 약간의 후회도 없지 않아 있었습니다. 같은 후회와 번거로움을 느끼는 학생들을 위해 hungry yonsei 프로젝트를 시작하게 되었습니다.
 
-![IMG_2645](https://github.com/dokdokorean/hungry_yonsei/assets/92303070/588c75da-90b1-4064-aadf-ab2df9ede200)
-![IMG_FE90EF5E6F6A-1](https://github.com/dokdokorean/hungry_yonsei/assets/92303070/eec9a49b-780b-4576-99b4-185f2d0d91ea)
-![IMG_1067F7D92A24-1](https://github.com/dokdokorean/hungry_yonsei/assets/92303070/50fadab5-f0ca-4b71-b60f-4cf69c162860)
-
 ### 주요기능
 - 수목샘 점심특식 메뉴 온라인제공
 - 수목샘 오늘의 특식 평가 기능

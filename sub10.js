@@ -34,4 +34,5 @@ var exit =document.getElementById('exit');
 var logo =document.getElementById('logo');
     logo.addEventListener('click',function(event){
         window.close('sub1.html')
+        alert('closeWebView')
     })

@@ -64,7 +64,7 @@ body{
     height: 40px; 
     width: auto;
     position: absolute;
-    top: 2px;
+    top: -2px;
 }
 .logo h1{
     position: absolute; 

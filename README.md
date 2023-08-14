@@ -16,7 +16,7 @@
 본 프로젝트는 웹앱(Web Application)형식으로 배포되었으며, 안드로이드 Play Store,IOS App Store 에서 설치할 수 있습니다.
 웹으로 접속을 희망하는 분들은 
 
-[https://dokdokorean.github.io/hungry_yonsei/main.html](https://dokdokorean.github.io/hungry_yonsei/main.html)
+[https://dokdokorean.github.io/hungry_yonsei](https://dokdokorean.github.io/hungry_yonsei)
 
 으로 접속 하실수 있습니다.
 

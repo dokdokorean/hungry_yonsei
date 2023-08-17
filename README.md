@@ -2,8 +2,17 @@
 ### 연세대학교 미래캠퍼스 학생식당 메뉴 및 편의 시설 운영시간 온라인 정보 제공 웹 서비스
 
 ----------------------------
+![그래픽](https://github.com/dokdokorean/hungry_yonsei/assets/92303070/596c1386-8d5e-405b-974e-c0b05f055f05)
+
 
 매일매일 바뀌는 학식의 메뉴는 아침과 점심을 먹을지 안 먹을지 판단하는 근거가 되곤했습니다. 
+
+
+![se1](https://github.com/dokdokorean/hungry_yonsei/assets/92303070/22f9fb21-b199-402a-9b3e-deeedb0fa72a)
+![se2](https://github.com/dokdokorean/hungry_yonsei/assets/92303070/7aca8295-2c18-4590-8e8c-23d0c0230ddb)
+![se3](https://github.com/dokdokorean/hungry_yonsei/assets/92303070/b92ff72c-bbb1-436a-a950-1aee61077c85)
+![se4](https://github.com/dokdokorean/hungry_yonsei/assets/92303070/e2de5cfb-c68c-4d60-9139-3ebcf7798faf)
+
 
 가끔 에타에 올라오는 천식의 사진을 보면서, 혹은 오늘 밥을 먹으러갔던 친구의 이야기를 들으며 ‘ 아 오늘 맛있는 메뉴였네 먹으러 갈걸’ 이거나 막상 먹으러가서 ‘아 오늘 별론데 괜히 왔다’ 이라는 약간의 후회도 없지 않아 있었습니다. 같은 후회와 번거로움을 느끼는 학생들을 위해 hungry yonsei 프로젝트를 시작하게 되었습니다.
 

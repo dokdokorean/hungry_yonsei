@@ -15,7 +15,7 @@ document.getElementById('china-menu50-1').innerText='중국메뉴5'
 //점심메뉴 1번 (국이름만 수정)
 document.getElementById('lunch-menu1-1').innerText='백반 - '+ '월요일'
 //점심메뉴 2번 
-document.getElementById('lunch-menu2-1').innerText='닭고기'
+document.getElementById('lunch-menu2-1').innerText='소고기'
 //점심메뉴 3번 
 document.getElementById('lunch-menu3-1').innerText='소고기'
 //점심메뉴 4번 
@@ -115,7 +115,7 @@ document.getElementById('china-menu50-5').innerText='중국메뉴5'
 //점심메뉴 1번 (국이름만 수정)
 document.getElementById('lunch-menu1-5').innerText='백반 - '+ '금요일'
 //점심메뉴 2번 
-document.getElementById('lunch-menu2-5').innerText='국수'
+document.getElementById('lunch-menu2-5').innerText='소고기'
 //점심메뉴 3번 
 document.getElementById('lunch-menu3-5').innerText='소고기'
 //점심메뉴 4번 

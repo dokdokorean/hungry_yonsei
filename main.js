@@ -231,15 +231,25 @@ function noon_func(){
    
    var tomorrow1 = document.getElementById('tomar');
    tomorrow1.addEventListener('click', function (event) {
-     currentDate.setDate(currentDate.getDate() + 1); // 현재 날짜에 1일을 더하여 다음 날짜로 설정
+     if (currentDate.getDay() === 6) { // 토요일인 경우
+       currentDate.setDate(currentDate.getDate() - 6); // 6일을 빼서 이번 주 일요일로 이동
+     } else {
+       currentDate.setDate(currentDate.getDate() + 1); // 다음 날짜로 설정
+     }
      updateDisplay();
    });
    
+   
    var yesterday1 = document.getElementById('yesar');
    yesterday1.addEventListener('click', function (event) {
-     currentDate.setDate(currentDate.getDate() - 1); // 현재 날짜에 1일을 빼서 이전 날짜로 설정
+     if (currentDate.getDay() === 0) { // 일요일인 경우
+       currentDate.setDate(currentDate.getDate() + 6); // 6일을 더해서 이전 주 토요일로 이동
+     } else {
+       currentDate.setDate(currentDate.getDate() - 1); // 이전 날짜로 설정
+     }
      updateDisplay();
    });
+   
    
    // 초기화면 설정
    updateDisplay();
@@ -254,7 +264,6 @@ var month = date.getMonth()
 //현재 날짜 표시
 var day = date.getDate()
 //현재 요일 표시
-
 var day1 = date.getDay()
 if (day1 === 0) {
     day10 = '( 일 )';

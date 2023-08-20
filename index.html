@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-H1E2PLXL4N"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-H1E2PLXL4N');
-</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="16x16">
     <title>연세대 학식모지</title>
     <link rel="stylesheet" href="main.css"/>
     
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H1E2PLXL4N"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-H1E2PLXL4N');
+    </script>
+    
+    <!-- Kakao SDK 스크립트 추가 -->
+    <script>
+        window.kakaoAsyncInit = function() {
+            Kakao.Channel.createAddChannelButton({
+                container: '#kakao-talk-channel-add-button',
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://t1.kakaocdn.net/kakao_js_sdk/2.3.0/kakao.channel.min.js';
+            js.integrity = 'sha384-suN4Zc1CFiRm8j96GVFtk9WqRwjWWhDoYbIrYCXyrsvKZZ2XRUIoUyH/AyjszUEj';
+            js.crossOrigin = 'anonymous';
+            fjs.parentNode.insertBefore(js, fjs);
+        })(document, 'script', 'kakao-js-sdk');
+    </script>
 </head>
 <body>
     <div class="entry">
@@ -59,7 +78,7 @@
             <li id="sub2" onclick="sub20()">GS25(청연,백운)</li>
         </ul>
         <div id="kakao-talk-channel-add-button" data-channel-public-id="_xilqlG" data-size="large" data-support-multiple-densities="true">
-            
+
         </div>
         </div>
     <div class="main">

@@ -58,8 +58,8 @@
             <li id="sub2" onclick="sub19()">카페 딕셔너리(정의관)</li>
             <li id="sub2" onclick="sub20()">GS25(청연,백운)</li>
         </ul>
-        <div id="kakaoch">
-            <a href="https://pf.kakao.com/_xilqlG/chat"><img id="kakaoimg" src="kakaoimg.png"></a>
+        <div id="kakao-talk-channel-add-button" data-channel-public-id="_xilqlG" data-size="large" data-support-multiple-densities="true">
+            
         </div>
         </div>
     <div class="main">
@@ -335,4 +335,21 @@
     <script type="text/javascript" src="main.js"></script>
     <script type="text/javascript" src="weekly.js"></script>
 </body>
+<script>
+  window.kakaoAsyncInit = function() {
+    Kakao.Channel.createAddChannelButton({
+      container: '#kakao-talk-channel-add-button',
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://t1.kakaocdn.net/kakao_js_sdk/2.3.0/kakao.channel.min.js';
+    js.integrity = 'sha384-suN4Zc1CFiRm8j96GVFtk9WqRwjWWhDoYbIrYCXyrsvKZZ2XRUIoUyH/AyjszUEj';
+    js.crossOrigin = 'anonymous';
+    fjs.parentNode.insertBefore(js, fjs);
+  })(document, 'script', 'kakao-js-sdk');
+</script>
 </html>

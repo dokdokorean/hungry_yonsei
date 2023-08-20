@@ -116,12 +116,13 @@ body{
     height: auto;
     background-color: #ffffff;
 }
-#kakao-talk-channel-add-button{
+#kakaoimg{
     position: relative;
-    left: 80%;
+    top: 15px;
+    left: 50%;
     width: auto;
     transform: translate(-50%,0);
-    height: 40px;
+    height: 46px;
 }
 
 .main-content{

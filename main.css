@@ -460,7 +460,38 @@ body{
     font-family: sans-serif;
     font-size: 18px;
 }
-
+#kakao{
+    position: relative;
+    top: 10px;
+    border-radius: 11px;
+    background: #FAE100;
+    box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.15);
+    flex-direction: column;
+    height: 55px;
+}
+#kakao h5{
+    position: absolute;
+    top: -14px;
+    left: 55px;
+    font-size: 15px;
+    font-weight: 550;
+}
+#kakao p{
+    position: absolute;
+    top: 20px;
+    left: 55px;
+    font-size: 11px;
+    font-weight: 400;
+}
+#kakaoimg{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translate(0,-50%);
+    height: 35px;
+    width: auto;
+    
+}
 /*좋아요 표시*/
 .like{
     position: relative;
@@ -522,7 +553,7 @@ body{
     position: relative;
     width: 100%;
     height: 60px;
-    top: 30px;
+    top: 90px;
 }
 .info-name{
     position: relative;
@@ -627,5 +658,3 @@ body{
     font-weight: lighter;
     color: black;
 }
-
-

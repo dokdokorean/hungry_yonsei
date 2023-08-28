@@ -473,6 +473,7 @@ body{
     position: absolute;
     top: -14px;
     left: 55px;
+    width: 250px;
     font-size: 15px;
     font-weight: 550;
 }
@@ -482,6 +483,7 @@ body{
     left: 55px;
     font-size: 11px;
     font-weight: 400;
+    width: 180px;
 }
 #p2{
     position: absolute;
@@ -489,6 +491,7 @@ body{
     left: 55px;
     font-size: 11px;
     font-weight: 400;
+    width: 170px;
 }
 #kakaoimg{
     position: absolute;
@@ -514,7 +517,7 @@ body{
     font-size: 16px;
     top: 3px;
     left: 15px;
-    width: auto;
+    width: 200px;
     text-align: left;
 }
 #like2{
@@ -522,7 +525,7 @@ body{
     font-size: 10px;
     left: 15px;
     top: 30px;
-    width: auto;
+    width: 230px;
     text-align: left;
 }
 #afterlike{

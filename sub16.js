@@ -27,6 +27,11 @@ else if (day1==0 && hours>10.5 && hours<22){
     document.getElementById('closed').style.visibility="visible"
     document.getElementById('open').style.visibility='hidden'
 }
+else{
+    document.getElementById('closed').style.visibility="visible"
+    document.getElementById('open').style.visibility='hidden'
+
+}
 }
 var exit =document.getElementById('exit');
     exit.addEventListener('click',function(event){

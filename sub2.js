@@ -13,7 +13,7 @@ let min = date.getMinutes()/60;
 
 let hours=date.getHours()+min;
 
-if( day1 >0 && day1<6 && hours>=8.5 && hours < 17.5 ){
+if( day1 >0 && day1<6 && hours>=8.5 && hours < 18.5 ){
     document.getElementById('closed').style.visibility="hidden"
     document.getElementById('open').style.visibility='visible'
 }

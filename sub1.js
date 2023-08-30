@@ -13,7 +13,11 @@ let min = date.getMinutes()/60;
 
 let hours=date.getHours()+min;
 
-if( day1 >0 && day1<6 && hours>=8.5 && hours < 21){
+if( day1 >0 && day1<5 && hours>=8 && hours < 21){
+    document.getElementById('closed').style.visibility="hidden"
+    document.getElementById('open').style.visibility='visible'
+}
+else if(day1==5 && hours>=8 && hours<20){
     document.getElementById('closed').style.visibility="hidden"
     document.getElementById('open').style.visibility='visible'
 }
@@ -21,7 +25,7 @@ else if(day1==6 && hours>=10.5 && hours<19){
     document.getElementById('closed').style.visibility="hidden"
     document.getElementById('open').style.visibility='visible'
 }
-else if(day1==0 && hours>=10.5 && hours<21){
+else if(day1==0 && hours>=10.5 && hours<19){
     document.getElementById('closed').style.visibility="hidden"
     document.getElementById('open').style.visibility='visible'
 }
@@ -33,11 +37,8 @@ else{
 var exit =document.getElementById('exit');
     exit.addEventListener('click',function(event){
         window.close('sub1.html')
-        alert('closeWebView')
-
     })
 var logo =document.getElementById('logo');
     logo.addEventListener('click',function(event){
         window.close('sub1.html')
-        alert('closeWebView')
     })

@@ -13,7 +13,7 @@ let min = date.getMinutes()/60;
 
 let hours=date.getHours()+min;
 //평일
-if( day1 > 0 && day1<6 && hours>=8.5 && hours < 17){
+if( day1 > 0 && day1<6 && hours>=8.5 && hours < 18){
     document.getElementById('closed').style.visibility="hidden"
     document.getElementById('open').style.visibility='visible'
 }
@@ -26,10 +26,8 @@ else{
 var exit =document.getElementById('exit');
     exit.addEventListener('click',function(event){
         window.close('sub1.html')
-        alert('closeWebView')
     })
 var logo =document.getElementById('logo');
     logo.addEventListener('click',function(event){
         window.close('sub1.html')
-        alert('closeWebView')
     })

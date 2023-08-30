@@ -9,14 +9,16 @@ var day = date.getDate()
 //현재 요일 표시
 var day1 = date.getDay()
 
-let hours=date.getHours();
+let min = date.getMinutes()/60;
+
+let hours=date.getHours()+min;
 //평일
 if( day1 > 0 && day1<6 && hours>=8 && hours < 20){
     document.getElementById('closed').style.visibility="hidden"
     document.getElementById('open').style.visibility='visible'
 }
 //토요일
-else if(day1==6 && hours>=9 && hours<19){
+else if(day1==6 && hours>=9 && hours<18){
     document.getElementById('closed').style.visibility="hidden"
     document.getElementById('open').style.visibility='visible'
 }
@@ -29,10 +31,8 @@ else{
 var exit =document.getElementById('exit');
     exit.addEventListener('click',function(event){
         window.close('sub1.html')
-        alert('closeWebView')
     })
 var logo =document.getElementById('logo');
     logo.addEventListener('click',function(event){
         window.close('sub1.html')
-        alert('closeWebView')
     })

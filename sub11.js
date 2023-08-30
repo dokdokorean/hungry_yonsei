@@ -9,7 +9,9 @@ var day = date.getDate()
 //현재 요일 표시
 var day1 = date.getDay()
 
-let hours=date.getHours();
+let min = date.getMinutes()/60;
+
+let hours=date.getHours()+min;
 //평일
 if( day1 > 0 && day1<6 && hours>=9 && hours < 19){
     document.getElementById('closed').style.visibility="hidden"
@@ -29,10 +31,8 @@ else{
 var exit =document.getElementById('exit');
     exit.addEventListener('click',function(event){
         window.close('sub1.html')
-        alert('closeWebView')
     })
 var logo =document.getElementById('logo');
     logo.addEventListener('click',function(event){
         window.close('sub1.html')
-        alert('closeWebView')
     })

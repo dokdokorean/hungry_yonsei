@@ -19,9 +19,18 @@ if( day1 > 0 && day1<6 && hours>=8.5 && hours <=18.66){
 }
 //토요일
 //일요일
-else if(hours>=11 && hours<17){
+else if(day1==0 && hours>=11 && hours<17){
+    document.getElementById('closed').style.visibility="hidden"
+    document.getElementById('open').style.visibility='visible'
+}
+else if(day1==6 && hours>=11 && hours<17){
+    document.getElementById('closed').style.visibility="hidden"
+    document.getElementById('open').style.visibility='visible'
+}
+else{
     document.getElementById('closed').style.visibility="visible"
     document.getElementById('open').style.visibility='hidden'
+
 }
 }
 var exit =document.getElementById('exit');

@@ -230,7 +230,7 @@ function noon_func(){
        document.getElementById('wend').style.display='none'
        document.getElementById('thur').style.display='none'
        document.getElementById('fri').style.display='none'
-       document.getElementById('sat').style.display='none'
+       document.getElementById('sat').style.display='block'
        document.getElementById('sun').style.display='none'
      }
      document.getElementById('year').innerText = year + '.' + (month + 1) + '.' + day + '.' + day10;

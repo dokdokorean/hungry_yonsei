@@ -121,7 +121,7 @@ var noon1 = document.getElementById('noon');
     });
 function info10(){
     document.getElementById('info_info').style.visibility='visible'
-        setTimeout(() => document.getElementById('info_info').style.visibility='hidden', 4200);
+        setTimeout(() => document.getElementById('info_info').style.visibility='hidden', 9000);
 }
 var info = document.getElementById('info1');
     info.addEventListener('click', function (event){

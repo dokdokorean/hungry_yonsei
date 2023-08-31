@@ -176,31 +176,35 @@ function noon_func(){
        document.getElementById('wend').style.display='none'
        document.getElementById('thur').style.display='none'
        document.getElementById('fri').style.display='none'
-       document.getElementById('end').style.display='block'
-     } else if (day1 === 1) {
+       document.getElementById('sat').style.display='none'
+       document.getElementById('sun').style.display='block'
+       } else if (day1 === 1) {
        day10 = '( 월 )';
        document.getElementById('mon').style.display='block'
        document.getElementById('tue').style.display='none'
        document.getElementById('wend').style.display='none'
        document.getElementById('thur').style.display='none'
        document.getElementById('fri').style.display='none'
-       document.getElementById('end').style.display='none'
-     } else if (day1 === 2) {
+       document.getElementById('sat').style.display='none'
+       document.getElementById('sun').style.display='none'
+       } else if (day1 === 2) {
        day10 = '( 화 )';
        document.getElementById('mon').style.display='none'
        document.getElementById('tue').style.display='block'
        document.getElementById('wend').style.display='none'
        document.getElementById('thur').style.display='none'
        document.getElementById('fri').style.display='none'
-       document.getElementById('end').style.display='none'
-     } else if (day1 === 3) {
+       document.getElementById('sat').style.display='none'
+       document.getElementById('sun').style.display='none'
+       } else if (day1 === 3) {
        day10 = '( 수 )';
        document.getElementById('mon').style.display='none'
        document.getElementById('tue').style.display='none'
        document.getElementById('wend').style.display='block'
        document.getElementById('thur').style.display='none'
        document.getElementById('fri').style.display='none'
-       document.getElementById('end').style.display='none'
+       document.getElementById('sat').style.display='none'
+       document.getElementById('sun').style.display='none'
      } else if (day1 === 4) {
        day10 = '( 목 )';
        document.getElementById('mon').style.display='none'
@@ -208,7 +212,8 @@ function noon_func(){
        document.getElementById('wend').style.display='none'
        document.getElementById('thur').style.display='block'
        document.getElementById('fri').style.display='none'
-       document.getElementById('end').style.display='none'
+       document.getElementById('sat').style.display='none'
+       document.getElementById('sun').style.display='none'
      } else if (day1 === 5) {
        day10 = '( 금 )';
        document.getElementById('mon').style.display='none'
@@ -216,7 +221,8 @@ function noon_func(){
        document.getElementById('wend').style.display='none'
        document.getElementById('thur').style.display='none'
        document.getElementById('fri').style.display='block'
-       document.getElementById('end').style.display='none'
+       document.getElementById('sat').style.display='none'
+       document.getElementById('sun').style.display='none'
      } else if (day1 === 6) {
        day10 = '( 토 )';
        document.getElementById('mon').style.display='none'
@@ -224,7 +230,8 @@ function noon_func(){
        document.getElementById('wend').style.display='none'
        document.getElementById('thur').style.display='none'
        document.getElementById('fri').style.display='none'
-       document.getElementById('end').style.display='block'
+       document.getElementById('sat').style.display='none'
+       document.getElementById('sun').style.display='none'
      }
      document.getElementById('year').innerText = year + '.' + (month + 1) + '.' + day + '.' + day10;
    }
@@ -272,7 +279,9 @@ if (day1 === 0) {
     document.getElementById('wend').style.display='none'
     document.getElementById('thur').style.display='none'
     document.getElementById('fri').style.display='none'
-    document.getElementById('end').style.display='block'
+    document.getElementById('sat').style.display='none'
+    document.getElementById('sun').style.display='block'
+
   } else if (day1 === 1) {
     day10 = '( 월 )';
     document.getElementById('mon').style.display='block'
@@ -280,48 +289,53 @@ if (day1 === 0) {
     document.getElementById('wend').style.display='none'
     document.getElementById('thur').style.display='none'
     document.getElementById('fri').style.display='none'
-    document.getElementById('end').style.display='none'
-  } else if (day1 === 2) {
+    document.getElementById('sat').style.display='none'
+    document.getElementById('sun').style.display='none'
+    } else if (day1 === 2) {
     day10 = '( 화 )';
     document.getElementById('mon').style.display='none'
     document.getElementById('tue').style.display='block'
     document.getElementById('wend').style.display='none'
     document.getElementById('thur').style.display='none'
     document.getElementById('fri').style.display='none'
-    document.getElementById('end').style.display='none'
-  } else if (day1 === 3) {
+    document.getElementById('sat').style.display='none'
+    document.getElementById('sun').style.display='none'
+    } else if (day1 === 3) {
     day10 = '( 수 )';
     document.getElementById('mon').style.display='none'
     document.getElementById('tue').style.display='none'
     document.getElementById('wend').style.display='block'
     document.getElementById('thur').style.display='none'
     document.getElementById('fri').style.display='none'
-    document.getElementById('end').style.display='none'
-  } else if (day1 === 4) {
+    document.getElementById('sat').style.display='none'
+    document.getElementById('sun').style.display='none'
+    } else if (day1 === 4) {
     day10 = '( 목 )';
     document.getElementById('mon').style.display='none'
     document.getElementById('tue').style.display='none'
     document.getElementById('wend').style.display='none'
     document.getElementById('thur').style.display='block'
     document.getElementById('fri').style.display='none'
-    document.getElementById('end').style.display='none'
-  } else if (day1 === 5) {
+    document.getElementById('sat').style.display='none'
+    document.getElementById('sun').style.display='none'
+    } else if (day1 === 5) {
     day10 = '( 금 )';
     document.getElementById('mon').style.display='none'
     document.getElementById('tue').style.display='none'
     document.getElementById('wend').style.display='none'
     document.getElementById('thur').style.display='none'
     document.getElementById('fri').style.display='block'
-    document.getElementById('end').style.display='none'
-  } else if (day1 === 6) {
+    document.getElementById('sat').style.display='none'
+    document.getElementById('sun').style.display='none'
+    } else if (day1 === 6) {
     day10 = '( 토 )';
     document.getElementById('mon').style.display='none'
     document.getElementById('tue').style.display='none'
     document.getElementById('wend').style.display='none'
     document.getElementById('thur').style.display='none'
     document.getElementById('fri').style.display='none'
-    document.getElementById('end').style.display='block'
-  }
+    document.getElementById('sat').style.display='block'
+    document.getElementById('sun').style.display='none'  }
 
 document.getElementById("year").innerText=year+'.'+(month+1)+'.'+day+'.'+day10
 //현재 시간 표시(사용자 접근성 향상)

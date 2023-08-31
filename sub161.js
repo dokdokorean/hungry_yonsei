@@ -13,7 +13,11 @@ let min = date.getMinutes()/60;
 
 let hours=date.getHours()+min;
 
-if( day1 >0 && day1<6 && hours>=10 && hours < 18){
+if( day1 >0 && day1<6 && hours>=8 && hours < 20){
+    document.getElementById('closed').style.visibility="hidden"
+    document.getElementById('open').style.visibility='visible'
+}
+else if( day1==6 && hours>=10 && hours < 17){
     document.getElementById('closed').style.visibility="hidden"
     document.getElementById('open').style.visibility='visible'
 }

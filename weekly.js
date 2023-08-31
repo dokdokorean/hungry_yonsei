@@ -1,9 +1,9 @@
 //월요일
 
 //중식메뉴 1번
-document.getElementById('china-menu10-1').innerText='월요일 중국메뉴1'
+document.getElementById('china-menu10-1').innerText='오픈전'
 //중식메뉴 2번
-document.getElementById('china-menu20-1').innerText='중국메뉴2'
+document.getElementById('china-menu20-1').innerText='오픈전'
 //중식메뉴 3번
 document.getElementById('china-menu30-1').innerText='중국메뉴3'
 //중식메뉴 4번

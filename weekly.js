@@ -122,3 +122,53 @@ document.getElementById('lunch-menu3-5').innerText='오픈전'
 document.getElementById('lunch-menu4-5').innerText='오픈전'
 //점심메뉴 5번 
 document.getElementById('lunch-menu5-5').innerText='오픈전'
+
+//토요일
+
+//중식메뉴 1번
+document.getElementById('china-menu10-6').innerText='오픈전'
+//중식메뉴 2번
+document.getElementById('china-menu20-6').innerText='오픈전'
+//중식메뉴 3번
+document.getElementById('china-menu30-6').innerText='오픈전'
+//중식메뉴 4번
+document.getElementById('china-menu40-6').innerText='오픈전'
+//중식메뉴 5번
+document.getElementById('china-menu50-6').innerText='오픈전'
+
+
+//점심메뉴 1번 (국이름만 수정)
+document.getElementById('lunch-menu1-6').innerText='백반 - '+ '오픈전'
+//점심메뉴 2번 
+document.getElementById('lunch-menu2-6').innerText='오픈전'
+//점심메뉴 3번 
+document.getElementById('lunch-menu3-6').innerText='오픈전'
+//점심메뉴 4번 
+document.getElementById('lunch-menu4-6').innerText='오픈전'
+//점심메뉴 5번 
+document.getElementById('lunch-menu5-6').innerText='오픈전'
+
+//일요일
+
+//중식메뉴 1번
+document.getElementById('china-menu10-7').innerText='오픈전'
+//중식메뉴 2번
+document.getElementById('china-menu20-7').innerText='오픈전'
+//중식메뉴 3번
+document.getElementById('china-menu30-7').innerText='오픈전'
+//중식메뉴 4번
+document.getElementById('china-menu40-7').innerText='오픈전'
+//중식메뉴 5번
+document.getElementById('china-menu50-7').innerText='오픈전'
+
+
+//점심메뉴 1번 (국이름만 수정)
+document.getElementById('lunch-menu1-7').innerText='백반 - '+ '오픈전'
+//점심메뉴 2번 
+document.getElementById('lunch-menu2-7').innerText='오픈전'
+//점심메뉴 3번 
+document.getElementById('lunch-menu3-7').innerText='오픈전'
+//점심메뉴 4번 
+document.getElementById('lunch-menu4-7').innerText='오픈전'
+//점심메뉴 5번 
+document.getElementById('lunch-menu5-7').innerText='오픈전'

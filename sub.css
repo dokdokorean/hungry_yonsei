@@ -109,6 +109,13 @@ body{
     visibility: visible;
     color: #FF1F00E0;
 }
+#lunch{
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    visibility: visible;
+    color: #ff8800e0;
+}
 #open{
     position: absolute;
     font-size: 25px;

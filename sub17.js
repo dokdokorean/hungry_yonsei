@@ -13,13 +13,28 @@ let min = date.getMinutes()/60;
 
 let hours=date.getHours()+min;
 
-if(day1>=0 && day1<6 && hours>10.5 && hours < 18.5){
+if( day1 >= 0 && day1<6 && hours>=10.5 && hours <14){
     document.getElementById('closed').style.visibility="hidden"
     document.getElementById('open').style.visibility='visible'
+    document.getElementById('lunch').style.visibility='hidden'
 }
+else if( day1 >= 0 && day1<6 && hours>14 && hours <15){
+    document.getElementById('closed').style.visibility="hidden"
+    document.getElementById('open').style.visibility='hidden'
+    document.getElementById('lunch').style.visibility='visible'
+}
+else if( day1 >= 0 && day1<6 && hours>=15 && hours <18){
+    document.getElementById('closed').style.visibility="hidden"
+    document.getElementById('open').style.visibility='visible'
+    document.getElementById('lunch').style.visibility='hidden'
+}
+//일요일
 else{
     document.getElementById('closed').style.visibility="visible"
     document.getElementById('open').style.visibility='hidden'
+    document.getElementById('lunch').style.visibility='hidden'
+
+
 }
 }
 var exit =document.getElementById('exit');

@@ -1,7 +1,7 @@
 //월요일
 
 //중식메뉴 1번
-document.getElementById('china-menu10-1').innerText='오픈전'
+document.getElementById('china-menu10-1').innerText='test'
 //중식메뉴 2번
 document.getElementById('china-menu20-1').innerText='오픈전'
 //중식메뉴 3번

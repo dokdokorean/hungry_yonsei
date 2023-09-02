@@ -20,8 +20,10 @@ document.getElementById('open').style.visibility='visible'
 var exit =document.getElementById('exit');
     exit.addEventListener('click',function(event){
         window.close('sub1.html')
+        alert('closeWebView')
     })
 var logo =document.getElementById('logo');
     logo.addEventListener('click',function(event){
         window.close('sub1.html')
+        alert('closeWebView')
     })

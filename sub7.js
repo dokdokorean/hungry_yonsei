@@ -18,7 +18,7 @@ if( day1 > 0 && day1<5 && hours>=11.66 && hours < 21){
     document.getElementById('open').style.visibility='visible'
 }
 //금요일
-else if(day1==5 && hours>=11.66 && hours<18.5){
+else if(day1==5 && hours>=11.66 && (hours<18 && min<30)){
     document.getElementById('closed').style.visibility="hidden"
     document.getElementById('open').style.visibility='visible'
 }
@@ -35,8 +35,10 @@ else{
 var exit =document.getElementById('exit');
     exit.addEventListener('click',function(event){
         window.close('sub1.html')
+        alert('closeWebView')
     })
 var logo =document.getElementById('logo');
     logo.addEventListener('click',function(event){
         window.close('sub1.html')
+        alert('closeWebView')
     })

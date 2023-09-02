@@ -347,7 +347,7 @@ else{
     noon_func()
 }
 
-if (day1>0 && hours>8 && hours <20){
+if (day1>0 && day1 <6 && hours>8 && hours <20){
     document.getElementById('blue').style.visibility='visible'
     document.getElementById('red').style.visibility='hidden'
 }

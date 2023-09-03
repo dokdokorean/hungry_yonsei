@@ -339,7 +339,17 @@ if (day1 === 0) {
 
 document.getElementById("year").innerText=year+'.'+(month+1)+'.'+day+'.'+day10
 //현재 시간 표시(사용자 접근성 향상)
-let hours=date.getHours();
+var year = date.getFullYear()
+//현재 달 표시
+var month = date.getMonth()
+//현재 날짜 표시
+var day = date.getDate()
+//현재 요일 표시
+var day1 = date.getDay()
+
+let min = date.getMinutes()/60;
+
+let hours=date.getHours()+min;
 if (hours<0){
     china_func()
 }

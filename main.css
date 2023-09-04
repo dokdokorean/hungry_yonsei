@@ -647,6 +647,10 @@ body{
     font-family:Verdana, Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
+#main-num{
+    height: 10px;
+    width:auto;
+}
 #info-sq5{
     position: relative;
     top: -20px;

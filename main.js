@@ -361,6 +361,10 @@ if (day1>0 && day1 <6 && hours>8 && hours <20){
     document.getElementById('blue').style.visibility='visible'
     document.getElementById('red').style.visibility='hidden'
 }
+else if(day1==6 && hours>10 && hours <15){
+    document.getElementById('blue').style.visibility='visible'
+    document.getElementById('red').style.visibility='hidden'
+}
 else{
     document.getElementById('red').style.visibility='visible'
     document.getElementById('blue').style.visibility='hidden'

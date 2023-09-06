@@ -46,6 +46,8 @@ var list2 =document.getElementById('exit');
         document.getElementById('list').animate(keyframes2, options2);
         setTimeout(() => document.getElementById('list').style.display='none', 600);
     })
+
+  
 function sub1(){
     window.open('sub1.html');
 }
@@ -127,6 +129,7 @@ var info = document.getElementById('info1');
     info.addEventListener('click', function (event){
         info10()
     });
+    
 function china_func(){
             document.getElementById('china').style.color='#fff'
         document.getElementById('section1').style.visibility='visible'
@@ -140,6 +143,7 @@ function china_func(){
             for (let i = 0; i < lunchMenus.length; i++) {
             lunchMenus[i].style.visibility = 'hidden';
             }}
+
 function noon_func(){
     document.getElementById('noon').style.color='#fff'
         document.getElementById('section2').style.visibility='visible'
@@ -155,6 +159,189 @@ function noon_func(){
             }
         }
 
+/*var sun_click =document.getElementById('sun1');
+    sun_click.addEventListener('click',function(event){
+      document.getElementById('sun1').style.background='#003876'
+      document.getElementById('mon1').style.background='#fff'
+      document.getElementById('tue1').style.background='#fff'
+      document.getElementById('wend1').style.background='#fff'
+      document.getElementById('thu1').style.background='#fff'
+      document.getElementById('fri1').style.background='#fff'
+      document.getElementById('sat1').style.background='#fff'
+
+      document.getElementById('sun1').style.color='#fff'
+      document.getElementById('mon1').style.color='#000'
+      document.getElementById('tue1').style.color='#000'
+      document.getElementById('wend1').style.color='#000'
+      document.getElementById('thu1').style.color='#000'
+      document.getElementById('fri1').style.color='#000'
+      document.getElementById('sat1').style.color='#000'
+
+      document.getElementById('mon').style.display='none'
+      document.getElementById('tue').style.display='none'
+      document.getElementById('wend').style.display='none'
+      document.getElementById('thur').style.display='none'
+      document.getElementById('fri').style.display='none'
+      document.getElementById('sat').style.display='none'
+      document.getElementById('sun').style.display='block'
+    })
+
+var mon_click =document.getElementById('mon1');
+    mon_click.addEventListener('click',function(event){
+      document.getElementById('sun1').style.background='#fff'
+      document.getElementById('mon1').style.background='#003876'
+      document.getElementById('tue1').style.background='#fff'
+      document.getElementById('wend1').style.background='#fff'
+      document.getElementById('thu1').style.background='#fff'
+      document.getElementById('fri1').style.background='#fff'
+      document.getElementById('sat1').style.background='#fff'
+
+      document.getElementById('sun1').style.color='#000'
+      document.getElementById('mon1').style.color='#fff'
+      document.getElementById('tue1').style.color='#000'
+      document.getElementById('wend1').style.color='#000'
+      document.getElementById('thu1').style.color='#000'
+      document.getElementById('fri1').style.color='#000'
+      document.getElementById('sat1').style.color='#000'
+
+      document.getElementById('mon').style.display='block'
+      document.getElementById('tue').style.display='none'
+      document.getElementById('wend').style.display='none'
+      document.getElementById('thur').style.display='none'
+      document.getElementById('fri').style.display='none'
+      document.getElementById('sat').style.display='none'
+      document.getElementById('sun').style.display='none'
+    })
+    var tue_click =document.getElementById('tue1');
+    tue_click.addEventListener('click',function(event){
+      document.getElementById('sun1').style.background='#fff'
+      document.getElementById('mon1').style.background='#fff'
+      document.getElementById('tue1').style.background='#003876'
+      document.getElementById('wend1').style.background='#fff'
+      document.getElementById('thu1').style.background='#fff'
+      document.getElementById('fri1').style.background='#fff'
+      document.getElementById('sat1').style.background='#fff'
+
+      document.getElementById('sun1').style.color='#000'
+      document.getElementById('mon1').style.color='#000'
+      document.getElementById('tue1').style.color='#fff'
+      document.getElementById('wend1').style.color='#000'
+      document.getElementById('thu1').style.color='#000'
+      document.getElementById('fri1').style.color='#000'
+      document.getElementById('sat1').style.color='#000'
+
+      document.getElementById('mon').style.display='none'
+      document.getElementById('tue').style.display='block'
+      document.getElementById('wend').style.display='none'
+      document.getElementById('thur').style.display='none'
+      document.getElementById('fri').style.display='none'
+      document.getElementById('sat').style.display='none'
+      document.getElementById('sun').style.display='none'
+    })
+    var wend_click =document.getElementById('wend1');
+    wend_click.addEventListener('click',function(event){
+      document.getElementById('sun1').style.background='#fff'
+      document.getElementById('mon1').style.background='#fff'
+      document.getElementById('tue1').style.background='#fff'
+      document.getElementById('wend1').style.background='#003876'
+      document.getElementById('thu1').style.background='#fff'
+      document.getElementById('fri1').style.background='#fff'
+      document.getElementById('sat1').style.background='#fff'
+
+      document.getElementById('sun1').style.color='#000'
+      document.getElementById('mon1').style.color='#000'
+      document.getElementById('tue1').style.color='#000'
+      document.getElementById('wend1').style.color='#fff'
+      document.getElementById('thu1').style.color='#000'
+      document.getElementById('fri1').style.color='#000'
+      document.getElementById('sat1').style.color='#000'
+
+      document.getElementById('mon').style.display='none'
+      document.getElementById('tue').style.display='none'
+      document.getElementById('wend').style.display='block'
+      document.getElementById('thur').style.display='none'
+      document.getElementById('fri').style.display='none'
+      document.getElementById('sat').style.display='none'
+      document.getElementById('sun').style.display='none'
+    })
+    var thur_click =document.getElementById('thu1');
+    thur_click.addEventListener('click',function(event){
+      document.getElementById('sun1').style.background='#fff'
+      document.getElementById('mon1').style.background='#fff'
+      document.getElementById('tue1').style.background='#fff'
+      document.getElementById('wend1').style.background='#fff'
+      document.getElementById('thu1').style.background='#003876'
+      document.getElementById('fri1').style.background='#fff'
+      document.getElementById('sat1').style.background='#fff'
+
+      document.getElementById('sun1').style.color='#000'
+      document.getElementById('mon1').style.color='#000'
+      document.getElementById('tue1').style.color='#000'
+      document.getElementById('wend1').style.color='#000'
+      document.getElementById('thu1').style.color='#fff'
+      document.getElementById('fri1').style.color='#000'
+      document.getElementById('sat1').style.color='#000'
+
+      document.getElementById('mon').style.display='none'
+      document.getElementById('tue').style.display='none'
+      document.getElementById('wend').style.display='none'
+      document.getElementById('thur').style.display='block'
+      document.getElementById('fri').style.display='none'
+      document.getElementById('sat').style.display='none'
+      document.getElementById('sun').style.display='none'
+    })
+    var fri_click =document.getElementById('fri1');
+    fri_click.addEventListener('click',function(event){
+      document.getElementById('sun1').style.background='#fff'
+      document.getElementById('mon1').style.background='#fff'
+      document.getElementById('tue1').style.background='#fff'
+      document.getElementById('wend1').style.background='#fff'
+      document.getElementById('thu1').style.background='#fff'
+      document.getElementById('fri1').style.background='#003876'
+      document.getElementById('sat1').style.background='#fff'
+
+      document.getElementById('sun1').style.color='#000'
+      document.getElementById('mon1').style.color='#000'
+      document.getElementById('tue1').style.color='#000'
+      document.getElementById('wend1').style.color='#000'
+      document.getElementById('thu1').style.color='#000'
+      document.getElementById('fri1').style.color='#fff'
+      document.getElementById('sat1').style.color='#000'
+
+      document.getElementById('mon').style.display='none'
+      document.getElementById('tue').style.display='none'
+      document.getElementById('wend').style.display='none'
+      document.getElementById('thur').style.display='none'
+      document.getElementById('fri').style.display='block'
+      document.getElementById('sat').style.display='none'
+      document.getElementById('sun').style.display='none'
+    })
+    var sat_click =document.getElementById('sat1');
+    sat_click.addEventListener('click',function(event){
+      document.getElementById('sun1').style.background='#fff'
+      document.getElementById('mon1').style.background='#fff'
+      document.getElementById('tue1').style.background='#fff'
+      document.getElementById('wend1').style.background='#fff'
+      document.getElementById('thu1').style.background='#fff'
+      document.getElementById('fri1').style.background='#fff'
+      document.getElementById('sat1').style.background='#003876'
+
+      document.getElementById('sun1').style.color='#000'
+      document.getElementById('mon1').style.color='#000'
+      document.getElementById('tue1').style.color='#000'
+      document.getElementById('wend1').style.color='#000'
+      document.getElementById('thu1').style.color='#000'
+      document.getElementById('fri1').style.color='#000'
+      document.getElementById('sat1').style.color='#fff'
+
+      document.getElementById('mon').style.display='none'
+      document.getElementById('tue').style.display='none'
+      document.getElementById('wend').style.display='none'
+      document.getElementById('thur').style.display='none'
+      document.getElementById('fri').style.display='none'
+      document.getElementById('sat').style.display='block'
+      document.getElementById('sun').style.display='none'
+    })*/
 
    var currentDate = new Date();
 
@@ -170,7 +357,23 @@ function noon_func(){
    
      var day10;
      if (day1 === 0) {
-       day10 = '( 일 )';
+       day10 = '( 일 )';       
+       document.getElementById('sun1').style.background='#003876'
+       document.getElementById('mon1').style.background='#fff'
+       document.getElementById('tue1').style.background='#fff'
+       document.getElementById('wend1').style.background='#fff'
+       document.getElementById('thu1').style.background='#fff'
+       document.getElementById('fri1').style.background='#fff'
+       document.getElementById('sat1').style.background='#fff'
+
+       document.getElementById('sun1').style.color='#fff'
+       document.getElementById('mon1').style.color='#000'
+       document.getElementById('tue1').style.color='#000'
+       document.getElementById('wend1').style.color='#000'
+       document.getElementById('thu1').style.color='#000'
+       document.getElementById('fri1').style.color='#000'
+       document.getElementById('sat1').style.color='#000'
+
        document.getElementById('mon').style.display='none'
        document.getElementById('tue').style.display='none'
        document.getElementById('wend').style.display='none'
@@ -180,6 +383,22 @@ function noon_func(){
        document.getElementById('sun').style.display='block'
        } else if (day1 === 1) {
        day10 = '( 월 )';
+       document.getElementById('sun1').style.background='#fff'
+       document.getElementById('mon1').style.background='#003876'
+       document.getElementById('tue1').style.background='#fff'
+       document.getElementById('wend1').style.background='#fff'
+       document.getElementById('thu1').style.background='#fff'
+       document.getElementById('fri1').style.background='#fff'
+       document.getElementById('sat1').style.background='#fff'
+
+       document.getElementById('sun1').style.color='#000'
+       document.getElementById('mon1').style.color='#fff'
+       document.getElementById('tue1').style.color='#000'
+       document.getElementById('wend1').style.color='#000'
+       document.getElementById('thu1').style.color='#000'
+       document.getElementById('fri1').style.color='#000'
+       document.getElementById('sat1').style.color='#000'
+
        document.getElementById('mon').style.display='block'
        document.getElementById('tue').style.display='none'
        document.getElementById('wend').style.display='none'
@@ -189,6 +408,22 @@ function noon_func(){
        document.getElementById('sun').style.display='none'
        } else if (day1 === 2) {
        day10 = '( 화 )';
+       document.getElementById('sun1').style.background='#fff'
+       document.getElementById('mon1').style.background='#fff'
+       document.getElementById('tue1').style.background='#003876'
+       document.getElementById('wend1').style.background='#fff'
+       document.getElementById('thu1').style.background='#fff'
+       document.getElementById('fri1').style.background='#fff'
+       document.getElementById('sat1').style.background='#fff'
+
+       document.getElementById('sun1').style.color='#000'
+       document.getElementById('mon1').style.color='#000'
+       document.getElementById('tue1').style.color='#fff'
+       document.getElementById('wend1').style.color='#000'
+       document.getElementById('thu1').style.color='#000'
+       document.getElementById('fri1').style.color='#000'
+       document.getElementById('sat1').style.color='#000'
+
        document.getElementById('mon').style.display='none'
        document.getElementById('tue').style.display='block'
        document.getElementById('wend').style.display='none'
@@ -198,6 +433,22 @@ function noon_func(){
        document.getElementById('sun').style.display='none'
        } else if (day1 === 3) {
        day10 = '( 수 )';
+       document.getElementById('sun1').style.background='#fff'
+       document.getElementById('mon1').style.background='#fff'
+       document.getElementById('tue1').style.background='#fff'
+       document.getElementById('wend1').style.background='#003876'
+       document.getElementById('thu1').style.background='#fff'
+       document.getElementById('fri1').style.background='#fff'
+       document.getElementById('sat1').style.background='#fff'
+
+       document.getElementById('sun1').style.color='#000'
+       document.getElementById('mon1').style.color='#000'
+       document.getElementById('tue1').style.color='#000'
+       document.getElementById('wend1').style.color='#fff'
+       document.getElementById('thu1').style.color='#000'
+       document.getElementById('fri1').style.color='#000'
+       document.getElementById('sat1').style.color='#000'
+
        document.getElementById('mon').style.display='none'
        document.getElementById('tue').style.display='none'
        document.getElementById('wend').style.display='block'
@@ -207,6 +458,22 @@ function noon_func(){
        document.getElementById('sun').style.display='none'
      } else if (day1 === 4) {
        day10 = '( 목 )';
+       document.getElementById('sun1').style.background='#fff'
+       document.getElementById('mon1').style.background='#fff'
+       document.getElementById('tue1').style.background='#fff'
+       document.getElementById('wend1').style.background='#fff'
+       document.getElementById('thu1').style.background='#003876'
+       document.getElementById('fri1').style.background='#fff'
+       document.getElementById('sat1').style.background='#fff'
+
+       document.getElementById('sun1').style.color='#000'
+       document.getElementById('mon1').style.color='#000'
+       document.getElementById('tue1').style.color='#000'
+       document.getElementById('wend1').style.color='#000'
+       document.getElementById('thu1').style.color='#fff'
+       document.getElementById('fri1').style.color='#000'
+       document.getElementById('sat1').style.color='#000'
+
        document.getElementById('mon').style.display='none'
        document.getElementById('tue').style.display='none'
        document.getElementById('wend').style.display='none'
@@ -216,6 +483,22 @@ function noon_func(){
        document.getElementById('sun').style.display='none'
      } else if (day1 === 5) {
        day10 = '( 금 )';
+       document.getElementById('sun1').style.background='#fff'
+       document.getElementById('mon1').style.background='#fff'
+       document.getElementById('tue1').style.background='#fff'
+       document.getElementById('wend1').style.background='#fff'
+       document.getElementById('thu1').style.background='#fff'
+       document.getElementById('fri1').style.background='#003876'
+       document.getElementById('sat1').style.background='#fff'
+
+       document.getElementById('sun1').style.color='#000'
+       document.getElementById('mon1').style.color='#000'
+       document.getElementById('tue1').style.color='#000'
+       document.getElementById('wend1').style.color='#000'
+       document.getElementById('thu1').style.color='#000'
+       document.getElementById('fri1').style.color='#fff'
+       document.getElementById('sat1').style.color='#000'
+
        document.getElementById('mon').style.display='none'
        document.getElementById('tue').style.display='none'
        document.getElementById('wend').style.display='none'
@@ -225,6 +508,22 @@ function noon_func(){
        document.getElementById('sun').style.display='none'
      } else if (day1 === 6) {
        day10 = '( 토 )';
+       document.getElementById('sun1').style.background='#fff'
+       document.getElementById('mon1').style.background='#fff'
+       document.getElementById('tue1').style.background='#fff'
+       document.getElementById('wend1').style.background='#fff'
+       document.getElementById('thu1').style.background='#fff'
+       document.getElementById('fri1').style.background='#fff'
+       document.getElementById('sat1').style.background='#003876'
+
+       document.getElementById('sun1').style.color='#000'
+       document.getElementById('mon1').style.color='#000'
+       document.getElementById('tue1').style.color='#000'
+       document.getElementById('wend1').style.color='#000'
+       document.getElementById('thu1').style.color='#000'
+       document.getElementById('fri1').style.color='#000'
+       document.getElementById('sat1').style.color='#fff'
+
        document.getElementById('mon').style.display='none'
        document.getElementById('tue').style.display='none'
        document.getElementById('wend').style.display='none'
@@ -233,7 +532,7 @@ function noon_func(){
        document.getElementById('sat').style.display='block'
        document.getElementById('sun').style.display='none'
      }
-     document.getElementById('year').innerText = year + '.' + (month + 1) + '.' + day + '.' + day10;
+     document.getElementById('year').innerText = year+'.' + (month + 1) + '.' + day + '.' + day10;
    }
    
    var tomorrow1 = document.getElementById('tomar');
@@ -274,6 +573,14 @@ var day = date.getDate()
 var day1 = date.getDay()
 if (day1 === 0) {
     day10 = '( 일 )';
+    document.getElementById('sun1').style.borderColor='#FFCB45'
+    document.getElementById('mon1').style.borderColor='#fff'
+    document.getElementById('tue1').style.borderColor='#fff'
+    document.getElementById('wend1').style.borderColor='#fff'
+    document.getElementById('thu1').style.borderColor='#fff'
+    document.getElementById('fri1').style.borderColor='#fff'
+    document.getElementById('sat1').style.borderColor='#fff'
+    
     document.getElementById('mon').style.display='none'
     document.getElementById('tue').style.display='none'
     document.getElementById('wend').style.display='none'
@@ -284,6 +591,14 @@ if (day1 === 0) {
 
   } else if (day1 === 1) {
     day10 = '( 월 )';
+    document.getElementById('sun1').style.borderColor='#fff'
+    document.getElementById('mon1').style.borderColor='#FFCB45'
+    document.getElementById('tue1').style.borderColor='#fff'
+    document.getElementById('wend1').style.borderColor='#fff'
+    document.getElementById('thu1').style.borderColor='#fff'
+    document.getElementById('fri1').style.borderColor='#fff'
+    document.getElementById('sat1').style.borderColor='#fff'
+
     document.getElementById('mon').style.display='block'
     document.getElementById('tue').style.display='none'
     document.getElementById('wend').style.display='none'
@@ -293,6 +608,14 @@ if (day1 === 0) {
     document.getElementById('sun').style.display='none'
     } else if (day1 === 2) {
     day10 = '( 화 )';
+    document.getElementById('sun1').style.borderColor='#fff'
+    document.getElementById('mon1').style.borderColor='#fff'
+    document.getElementById('tue1').style.borderColor='#FFCB45'
+    document.getElementById('wend1').style.borderColor='#fff'
+    document.getElementById('thu1').style.borderColor='#fff'
+    document.getElementById('fri1').style.borderColor='#fff'
+    document.getElementById('sat1').style.borderColor='#fff'
+
     document.getElementById('mon').style.display='none'
     document.getElementById('tue').style.display='block'
     document.getElementById('wend').style.display='none'
@@ -302,6 +625,14 @@ if (day1 === 0) {
     document.getElementById('sun').style.display='none'
     } else if (day1 === 3) {
     day10 = '( 수 )';
+    document.getElementById('sun1').style.borderColor='#fff'
+    document.getElementById('mon1').style.borderColor='#fff'
+    document.getElementById('tue1').style.borderColor='#fff'
+    document.getElementById('wend1').style.borderColor='#FFCB45'
+    document.getElementById('thu1').style.borderColor='#fff'
+    document.getElementById('fri1').style.borderColor='#fff'
+    document.getElementById('sat1').style.borderColor='#fff'
+
     document.getElementById('mon').style.display='none'
     document.getElementById('tue').style.display='none'
     document.getElementById('wend').style.display='block'
@@ -311,6 +642,14 @@ if (day1 === 0) {
     document.getElementById('sun').style.display='none'
     } else if (day1 === 4) {
     day10 = '( 목 )';
+    document.getElementById('sun1').style.borderColor='#fff'
+    document.getElementById('mon1').style.borderColor='#fff'
+    document.getElementById('tue1').style.borderColor='#fff'
+    document.getElementById('wend1').style.borderColor='#fff'
+    document.getElementById('thu1').style.borderColor='#FFCB45'
+    document.getElementById('fri1').style.borderColor='#fff'
+    document.getElementById('sat1').style.borderColor='#fff'
+
     document.getElementById('mon').style.display='none'
     document.getElementById('tue').style.display='none'
     document.getElementById('wend').style.display='none'
@@ -320,6 +659,14 @@ if (day1 === 0) {
     document.getElementById('sun').style.display='none'
     } else if (day1 === 5) {
     day10 = '( 금 )';
+    document.getElementById('sun1').style.borderColor='#fff'
+    document.getElementById('mon1').style.borderColor='#fff'
+    document.getElementById('tue1').style.borderColor='#fff'
+    document.getElementById('wend1').style.borderColor='#fff'
+    document.getElementById('thu1').style.borderColor='#fff'
+    document.getElementById('fri1').style.borderColor='#FFCB45'
+    document.getElementById('sat1').style.borderColor='#fff'
+
     document.getElementById('mon').style.display='none'
     document.getElementById('tue').style.display='none'
     document.getElementById('wend').style.display='none'
@@ -329,13 +676,22 @@ if (day1 === 0) {
     document.getElementById('sun').style.display='none'
     } else if (day1 === 6) {
     day10 = '( 토 )';
+    document.getElementById('sun1').style.borderColor='#fff'
+    document.getElementById('mon1').style.borderColor='#fff'
+    document.getElementById('tue1').style.borderColor='#fff'
+    document.getElementById('wend1').style.borderColor='#fff'
+    document.getElementById('thu1').style.borderColor='#fff'
+    document.getElementById('fri1').style.borderColor='#fff'
+    document.getElementById('sat1').style.borderColor='#FFCB45'
+
     document.getElementById('mon').style.display='none'
     document.getElementById('tue').style.display='none'
     document.getElementById('wend').style.display='none'
     document.getElementById('thur').style.display='none'
     document.getElementById('fri').style.display='none'
     document.getElementById('sat').style.display='block'
-    document.getElementById('sun').style.display='none'  }
+    document.getElementById('sun').style.display='none'  
+  }
 
 document.getElementById("year").innerText=year+'.'+(month+1)+'.'+day+'.'+day10
 //현재 시간 표시(사용자 접근성 향상)

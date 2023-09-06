@@ -159,7 +159,7 @@ function noon_func(){
             }
         }
 
-var sun_click =document.getElementById('sun1');
+/*var sun_click =document.getElementById('sun1');
     sun_click.addEventListener('click',function(event){
       document.getElementById('sun1').style.background='#003876'
       document.getElementById('mon1').style.background='#fff'
@@ -341,7 +341,7 @@ var mon_click =document.getElementById('mon1');
       document.getElementById('fri').style.display='none'
       document.getElementById('sat').style.display='block'
       document.getElementById('sun').style.display='none'
-    })
+    })*\
 
    var currentDate = new Date();
 

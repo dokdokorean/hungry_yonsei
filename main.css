@@ -165,7 +165,7 @@ body{
     height: 30px;
 }
 #info{
-    z-index: 2;
+    z-index: 1;
     position: absolute;
     right: 5px;
     top: 5px;

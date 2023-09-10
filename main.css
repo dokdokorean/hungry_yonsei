@@ -462,7 +462,6 @@ body{
     display: inline-flex;
     flex-direction: row;
     top: 10px;
-    display: none;
 }
 #d-menu{
     position: absolute;

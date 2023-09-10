@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "SDGothic";
+    src: url("NanumGothic-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "SDGothicbold";
+    src: url("NanumGothic-Bold.ttf") format("truetype");
+  }
 ul {
     text-align: left;
     list-style-position: inside;
@@ -20,6 +28,7 @@ body{
     -webkit-tap-highlight-color:rgba(255,255,255,0);
     user-select: none;
     -webkit-touch-callout: none;
+    font-family: 'SDGothic', serif;
 }
 .container{
     overflow-x: hidden;
@@ -71,8 +80,9 @@ body{
     position: absolute; 
     top: -5px; 
     left: 41px;
-    font-size:15px; 
+    font-size:14px; 
     width: 120px;
+    font-family: "SDGothicbold";
     font-weight: bold;
 }
 .logo h2{
@@ -91,7 +101,7 @@ body{
 }
 .main{
     position: relative;
-    height: 480px;
+    height: 505px;
     width: 100%;
     align-items: center;
 }
@@ -131,7 +141,7 @@ body{
     background: #FFF;
     box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.15);
     flex-direction: column;
-    height: 450px;
+    height: 470px;
 }
 
 .showdate{
@@ -492,7 +502,7 @@ body{
     color: #003876;
     text-align: center;
     text-shadow: 0px 4px 4px #DBDBDB;
-    font-family: Inter;
+    font-family: 'SDGothicbold', serif;
     font-size: 19px;
     font-style: normal;
     font-weight: 700;
@@ -507,11 +517,12 @@ body{
     color: #003876;
     text-align: center;
     text-shadow: 0px 4px 4px #DBDBDB;
-    font-family: Inter;
+    font-family: 'SDGothicbold', serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    letter-spacing: 1.1px;
 }
 #kakao{
     position: relative;
@@ -654,7 +665,6 @@ body{
     width: auto;
     font-weight: lighter;
     font-size: 11px;
-    font-family:Verdana, Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
 #info-sq2{
@@ -662,7 +672,6 @@ body{
     top: -2px;
     left: 10px;
     color: #FFF;
-    font-family:Verdana, Arial, Helvetica, sans-serif;
     font-size: 11px;
     font-weight: lighter;
 }
@@ -672,7 +681,6 @@ body{
     left: 10px;
     color: #FFF;
     font-size: 11px;
-    font-family:Verdana, Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
 #info-sq4{
@@ -681,7 +689,6 @@ body{
     left: 10px;
     color: #FFF;
     font-size: 11px;
-    font-family:Verdana, Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
 #main-num{
@@ -694,7 +701,6 @@ body{
     left: 10px;
     color: #FFF;
     font-size: 11px;
-    font-family:Verdana, Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
 .final{

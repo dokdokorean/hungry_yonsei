@@ -154,9 +154,8 @@ body{
 }
 #year{
     position: relative;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal;
-    font-family:sans-serif;
 }
 .content{
     width: 100%;
@@ -404,12 +403,10 @@ body{
     top: -20px;
     left: 5px;
     font-size: 14px;
-    font-family: sans-serif;
 }
 #lunch-menu2-1,#lunch-menu2-2,#lunch-menu2-3,#lunch-menu2-4,#lunch-menu2-5,#lunch-menu2-6,#lunch-menu2-7 {
     position: relative;
     left: 10px;
-    font-family: sans-serif;
     font-size: 18px;
 }
 
@@ -436,7 +433,6 @@ body{
 #lunch-menu3-1,#lunch-menu3-2,#lunch-menu3-3,#lunch-menu3-4,#lunch-menu3-5,#lunch-menu3-6,#lunch-menu3-7 {
     position: relative;
     left: 10px;
-    font-family: sans-serif;
     font-size: 18px;
 }
 
@@ -463,7 +459,6 @@ body{
 #lunch-menu4-1,#lunch-menu4-2,#lunch-menu4-3,#lunch-menu4-4,#lunch-menu4-5,#lunch-menu4-6,#lunch-menu4-7 {
     position: relative;
     left: 10px;
-    font-family: sans-serif;
     font-size: 18px;
 }
 
@@ -490,7 +485,6 @@ body{
 #lunch-menu5-1,#lunch-menu5-2,#lunch-menu5-3,#lunch-menu5-4,#lunch-menu5-5,#lunch-menu5-6,#lunch-menu5-7{
     position: relative;
     left: 10px;
-    font-family: sans-serif;
     font-size: 18px;
 }
 .sun-nolunch{

@@ -19,10 +19,10 @@ var bad = document.getElementById('bad');
     //list open animation
 let keyframes1 = [
         {opacity: 0},
-        {opacity: 1, transform: "translate(-250px, 0)"}
+        {opacity: 1}
       ];
 let options1 = {
-            duration: 600,
+            duration: 300,
             fill: "forwards"
       };
 var list1 =document.getElementById('menu');
@@ -35,10 +35,10 @@ var list1 =document.getElementById('menu');
       //list exit button
       let keyframes2 = [
         {opacity: 1},
-        {opacity: 0, transform: "translate(0px, 0)"}
+        {opacity: 0}
       ];
 let options2 = {
-            duration: 600,
+            duration: 400,
             fill: "forwards"
       };
 var list2 =document.getElementById('exit');
@@ -158,6 +158,190 @@ function noon_func(){
             lunchMenus[i].style.visibility = 'visible';
             }
         }
+
+/*var sun_click =document.getElementById('sun1');
+    sun_click.addEventListener('click',function(event){
+      document.getElementById('sun1').style.background='#003876'
+      document.getElementById('mon1').style.background='#fff'
+      document.getElementById('tue1').style.background='#fff'
+      document.getElementById('wend1').style.background='#fff'
+      document.getElementById('thu1').style.background='#fff'
+      document.getElementById('fri1').style.background='#fff'
+      document.getElementById('sat1').style.background='#fff'
+
+      document.getElementById('sun1').style.color='#fff'
+      document.getElementById('mon1').style.color='#000'
+      document.getElementById('tue1').style.color='#000'
+      document.getElementById('wend1').style.color='#000'
+      document.getElementById('thu1').style.color='#000'
+      document.getElementById('fri1').style.color='#000'
+      document.getElementById('sat1').style.color='#000'
+
+      document.getElementById('mon').style.display='none'
+      document.getElementById('tue').style.display='none'
+      document.getElementById('wend').style.display='none'
+      document.getElementById('thur').style.display='none'
+      document.getElementById('fri').style.display='none'
+      document.getElementById('sat').style.display='none'
+      document.getElementById('sun').style.display='block'
+    })
+
+var mon_click =document.getElementById('mon1');
+    mon_click.addEventListener('click',function(event){
+      document.getElementById('sun1').style.background='#fff'
+      document.getElementById('mon1').style.background='#003876'
+      document.getElementById('tue1').style.background='#fff'
+      document.getElementById('wend1').style.background='#fff'
+      document.getElementById('thu1').style.background='#fff'
+      document.getElementById('fri1').style.background='#fff'
+      document.getElementById('sat1').style.background='#fff'
+
+      document.getElementById('sun1').style.color='#000'
+      document.getElementById('mon1').style.color='#fff'
+      document.getElementById('tue1').style.color='#000'
+      document.getElementById('wend1').style.color='#000'
+      document.getElementById('thu1').style.color='#000'
+      document.getElementById('fri1').style.color='#000'
+      document.getElementById('sat1').style.color='#000'
+
+      document.getElementById('mon').style.display='block'
+      document.getElementById('tue').style.display='none'
+      document.getElementById('wend').style.display='none'
+      document.getElementById('thur').style.display='none'
+      document.getElementById('fri').style.display='none'
+      document.getElementById('sat').style.display='none'
+      document.getElementById('sun').style.display='none'
+    })
+    var tue_click =document.getElementById('tue1');
+    tue_click.addEventListener('click',function(event){
+      document.getElementById('sun1').style.background='#fff'
+      document.getElementById('mon1').style.background='#fff'
+      document.getElementById('tue1').style.background='#003876'
+      document.getElementById('wend1').style.background='#fff'
+      document.getElementById('thu1').style.background='#fff'
+      document.getElementById('fri1').style.background='#fff'
+      document.getElementById('sat1').style.background='#fff'
+
+      document.getElementById('sun1').style.color='#000'
+      document.getElementById('mon1').style.color='#000'
+      document.getElementById('tue1').style.color='#fff'
+      document.getElementById('wend1').style.color='#000'
+      document.getElementById('thu1').style.color='#000'
+      document.getElementById('fri1').style.color='#000'
+      document.getElementById('sat1').style.color='#000'
+
+      document.getElementById('mon').style.display='none'
+      document.getElementById('tue').style.display='block'
+      document.getElementById('wend').style.display='none'
+      document.getElementById('thur').style.display='none'
+      document.getElementById('fri').style.display='none'
+      document.getElementById('sat').style.display='none'
+      document.getElementById('sun').style.display='none'
+    })
+    var wend_click =document.getElementById('wend1');
+    wend_click.addEventListener('click',function(event){
+      document.getElementById('sun1').style.background='#fff'
+      document.getElementById('mon1').style.background='#fff'
+      document.getElementById('tue1').style.background='#fff'
+      document.getElementById('wend1').style.background='#003876'
+      document.getElementById('thu1').style.background='#fff'
+      document.getElementById('fri1').style.background='#fff'
+      document.getElementById('sat1').style.background='#fff'
+
+      document.getElementById('sun1').style.color='#000'
+      document.getElementById('mon1').style.color='#000'
+      document.getElementById('tue1').style.color='#000'
+      document.getElementById('wend1').style.color='#fff'
+      document.getElementById('thu1').style.color='#000'
+      document.getElementById('fri1').style.color='#000'
+      document.getElementById('sat1').style.color='#000'
+
+      document.getElementById('mon').style.display='none'
+      document.getElementById('tue').style.display='none'
+      document.getElementById('wend').style.display='block'
+      document.getElementById('thur').style.display='none'
+      document.getElementById('fri').style.display='none'
+      document.getElementById('sat').style.display='none'
+      document.getElementById('sun').style.display='none'
+    })
+    var thur_click =document.getElementById('thu1');
+    thur_click.addEventListener('click',function(event){
+      document.getElementById('sun1').style.background='#fff'
+      document.getElementById('mon1').style.background='#fff'
+      document.getElementById('tue1').style.background='#fff'
+      document.getElementById('wend1').style.background='#fff'
+      document.getElementById('thu1').style.background='#003876'
+      document.getElementById('fri1').style.background='#fff'
+      document.getElementById('sat1').style.background='#fff'
+
+      document.getElementById('sun1').style.color='#000'
+      document.getElementById('mon1').style.color='#000'
+      document.getElementById('tue1').style.color='#000'
+      document.getElementById('wend1').style.color='#000'
+      document.getElementById('thu1').style.color='#fff'
+      document.getElementById('fri1').style.color='#000'
+      document.getElementById('sat1').style.color='#000'
+
+      document.getElementById('mon').style.display='none'
+      document.getElementById('tue').style.display='none'
+      document.getElementById('wend').style.display='none'
+      document.getElementById('thur').style.display='block'
+      document.getElementById('fri').style.display='none'
+      document.getElementById('sat').style.display='none'
+      document.getElementById('sun').style.display='none'
+    })
+    var fri_click =document.getElementById('fri1');
+    fri_click.addEventListener('click',function(event){
+      document.getElementById('sun1').style.background='#fff'
+      document.getElementById('mon1').style.background='#fff'
+      document.getElementById('tue1').style.background='#fff'
+      document.getElementById('wend1').style.background='#fff'
+      document.getElementById('thu1').style.background='#fff'
+      document.getElementById('fri1').style.background='#003876'
+      document.getElementById('sat1').style.background='#fff'
+
+      document.getElementById('sun1').style.color='#000'
+      document.getElementById('mon1').style.color='#000'
+      document.getElementById('tue1').style.color='#000'
+      document.getElementById('wend1').style.color='#000'
+      document.getElementById('thu1').style.color='#000'
+      document.getElementById('fri1').style.color='#fff'
+      document.getElementById('sat1').style.color='#000'
+
+      document.getElementById('mon').style.display='none'
+      document.getElementById('tue').style.display='none'
+      document.getElementById('wend').style.display='none'
+      document.getElementById('thur').style.display='none'
+      document.getElementById('fri').style.display='block'
+      document.getElementById('sat').style.display='none'
+      document.getElementById('sun').style.display='none'
+    })
+    var sat_click =document.getElementById('sat1');
+    sat_click.addEventListener('click',function(event){
+      document.getElementById('sun1').style.background='#fff'
+      document.getElementById('mon1').style.background='#fff'
+      document.getElementById('tue1').style.background='#fff'
+      document.getElementById('wend1').style.background='#fff'
+      document.getElementById('thu1').style.background='#fff'
+      document.getElementById('fri1').style.background='#fff'
+      document.getElementById('sat1').style.background='#003876'
+
+      document.getElementById('sun1').style.color='#000'
+      document.getElementById('mon1').style.color='#000'
+      document.getElementById('tue1').style.color='#000'
+      document.getElementById('wend1').style.color='#000'
+      document.getElementById('thu1').style.color='#000'
+      document.getElementById('fri1').style.color='#000'
+      document.getElementById('sat1').style.color='#fff'
+
+      document.getElementById('mon').style.display='none'
+      document.getElementById('tue').style.display='none'
+      document.getElementById('wend').style.display='none'
+      document.getElementById('thur').style.display='none'
+      document.getElementById('fri').style.display='none'
+      document.getElementById('sat').style.display='block'
+      document.getElementById('sun').style.display='none'
+    })*/
 
    var currentDate = new Date();
 

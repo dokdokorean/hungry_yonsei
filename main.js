@@ -29,7 +29,8 @@ var list1 =document.getElementById('menu');
     list1.addEventListener('click',function(event){
         document.getElementById('list').style.display='block';
         document.getElementById('list').animate(keyframes1, options1);
-        setTimeout(()=>{},600);
+        setTimeout(()=>{},300);
+
     })
 
       //list exit button
@@ -44,8 +45,12 @@ let options2 = {
 var list2 =document.getElementById('exit');
     list2.addEventListener('click',function(event){
         document.getElementById('list').animate(keyframes2, options2);
-        setTimeout(() => document.getElementById('list').style.display='none', 600);
+        setTimeout(() => document.getElementById('list').style.display='none', 400);
     })
+var reload=document.getElementById('reload');
+reload.addEventListener('click',function(event){
+  location.reload()
+})
 
   
 function sub1(){

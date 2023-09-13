@@ -109,8 +109,8 @@ body{
 #list{
     z-index: 2;
     position: absolute;
-    top: 0px;
-    right: -250px;
+    top: 0;
+    right: 0;
     width:260px;
     height: 850px;
     background-color: #ffffff;

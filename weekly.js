@@ -37,7 +37,7 @@ document.getElementById('china-special2-3').innerText='중화오징어덮밥'
 
 
 //점심메뉴 1번 (국이름만 수정)
-document.getElementById('lunch-menu1-3').innerText='백반 - '+ '유뷰미소국'
+document.getElementById('lunch-menu1-3').innerText='백반 - '+ '유부미소국'
 //점심메뉴 2번 
 document.getElementById('lunch-menu2-3').innerText='소고기미역국'
 //점심메뉴 3번 

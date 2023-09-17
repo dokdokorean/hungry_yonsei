@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "SDGothic";
+    src: url("NanumGothic-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "SDGothicbold";
+    src: url("NanumGothic-Bold.ttf") format("truetype");
+  }
 ul {
     text-align: left;
     list-style-position: inside;
@@ -20,6 +28,7 @@ body{
     -webkit-tap-highlight-color:rgba(255,255,255,0);
     user-select: none;
     -webkit-touch-callout: none;
+    font-family: SDGothic;
 }
 .container{
     overflow-x: hidden;
@@ -86,6 +95,7 @@ body{
 #name{
     position: relative;
     font-size: 22px;
+    font-family: SDGothicbold;
     font-weight: bold;
     left: 20px;
 }
@@ -96,7 +106,7 @@ body{
     width: 359px;
     height: 99px;
     border-radius: 12px;
-    background: #FFFEFE;
+    background: #ffffff;
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.25);
     display: flex;
     justify-content: center;
@@ -105,6 +115,7 @@ body{
 #closed{
     position: absolute;
     font-size: 25px;
+    font-family: SDGothicbold;
     font-weight: bold;
     visibility: visible;
     color: #FF1F00E0;
@@ -123,17 +134,35 @@ body{
     visibility: hidden;
     color: #003876;
 }
+#content{
+    position: relative;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 359px;
+    height: 300px;
+    background: #ffffff;
+}
 #TEL{
     position: relative;
-    left: 10px;
-    font-weight: 700;
-    height: 1px;
-    font-size: 22px;
-    font-family: sans-serif;
+    width: 170px;
+    height: 70px;
+    background-color: #FFCB45;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    top: 10px;
+    font-size: 20px;
+    background: linear-gradient(99deg, #FFE7AA 0%, #FFD056 100%);
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.25);
+    float: left;
 }
 #TEL-content{
     position: relative;
-    left: 20px;
+    color: #FF6D1B;
+    font-family: SDGothicbold;
+    width: 100%;
+    top: -5px;
+    text-align: center;
     font-weight: 500;
     font-size: 17px;
     text-decoration: underline;
@@ -141,31 +170,52 @@ body{
 }
 #loc{
     position: relative;
-    left: 10px;
-    font-weight: 700;
-    height: 1px;
-    font-size: 22px;
-    font-family: sans-serif;
+    font-family: SDGothicbold;
+    width: 170px;
+    height: 70px;
+    top: 10px;
+    background-color: #003876;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    font-size: 20px;
+    float: right;
+    background: linear-gradient(99deg, #B6D8FF 0%, #449DFF 100%);
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.25);
 }
 #loc-content{
-    margin-top: 35px;
+    color: #003D80;
     position: relative;
-    left: 20px;
-    font-weight: 400;
+    top: -5px;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-family: SDGothicbold;
     font-size: 17px;
+    margin-top: 30px;
 }
 #time{
     position: relative;
+    top: 30px;
+    font-family: SDGothicbold;
+    width: 359px;
+    height: 130px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    float: left;
+}
+#time-title{
+    position: relative;
     left: 10px;
-    font-weight: 500;
-    height: 10px;
-    font-weight: 500;
-    font-size: 19px;
+    top: -10px;
+    font-family: SDGothicbold;
+    
 }
 #time-content1,#time-content2{
     position: relative;
-    width: 90%;
-    left: 20px;
+    top: -18px;
+    left: 15px;
     font-weight: 300;
     font-size: 15px;
 }

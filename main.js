@@ -30,8 +30,11 @@ var list1 =document.getElementById('menu');
         document.getElementById('list').style.display='block';
         document.getElementById('list').animate(keyframes1, options1);
         setTimeout(()=>{},300);
-
     })
+var sports =document.getElementById('sports');
+    sports.addEventListener('click',function(event){
+      window.location.href = 'https://uni.yonsei.ac.kr/fmcs/82?prev_proc=login';
+})
 
       //list exit button
       let keyframes2 = [

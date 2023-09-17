@@ -598,10 +598,10 @@ body{
 }
 #like1{
     position: absolute;
-    font-size: 15px;
-    top: 3px;
+    font-size: 14px;
+    top: 5px;
     left: 15px;
-    width: 60%;
+    width: 70%;
     text-align: left;
 }
 #like2{

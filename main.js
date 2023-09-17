@@ -376,7 +376,7 @@ var mon_click =document.getElementById('mon1');
        document.getElementById('wend1').style.color='#000'
        document.getElementById('thu1').style.color='#000'
        document.getElementById('fri1').style.color='#000'
-       document.getElementById('sat1').style.color='#000'
+       document.getElementById('sat1').style.color='#0057B8'
 
        document.getElementById('mon').style.display='none'
        document.getElementById('tue').style.display='none'
@@ -395,13 +395,13 @@ var mon_click =document.getElementById('mon1');
        document.getElementById('fri1').style.background='#fff'
        document.getElementById('sat1').style.background='#fff'
 
-       document.getElementById('sun1').style.color='#000'
+       document.getElementById('sun1').style.color='#FF5252'
        document.getElementById('mon1').style.color='#fff'
        document.getElementById('tue1').style.color='#000'
        document.getElementById('wend1').style.color='#000'
        document.getElementById('thu1').style.color='#000'
        document.getElementById('fri1').style.color='#000'
-       document.getElementById('sat1').style.color='#000'
+       document.getElementById('sat1').style.color='#0057B8'
 
        document.getElementById('mon').style.display='block'
        document.getElementById('tue').style.display='none'
@@ -420,13 +420,13 @@ var mon_click =document.getElementById('mon1');
        document.getElementById('fri1').style.background='#fff'
        document.getElementById('sat1').style.background='#fff'
 
-       document.getElementById('sun1').style.color='#000'
+       document.getElementById('sun1').style.color='#FF5252'
        document.getElementById('mon1').style.color='#000'
        document.getElementById('tue1').style.color='#fff'
        document.getElementById('wend1').style.color='#000'
        document.getElementById('thu1').style.color='#000'
        document.getElementById('fri1').style.color='#000'
-       document.getElementById('sat1').style.color='#000'
+       document.getElementById('sat1').style.color='#0057B8'
 
        document.getElementById('mon').style.display='none'
        document.getElementById('tue').style.display='block'
@@ -445,13 +445,13 @@ var mon_click =document.getElementById('mon1');
        document.getElementById('fri1').style.background='#fff'
        document.getElementById('sat1').style.background='#fff'
 
-       document.getElementById('sun1').style.color='#000'
+       document.getElementById('sun1').style.color='#FF5252'
        document.getElementById('mon1').style.color='#000'
        document.getElementById('tue1').style.color='#000'
        document.getElementById('wend1').style.color='#fff'
        document.getElementById('thu1').style.color='#000'
        document.getElementById('fri1').style.color='#000'
-       document.getElementById('sat1').style.color='#000'
+       document.getElementById('sat1').style.color='#0057B8'
 
        document.getElementById('mon').style.display='none'
        document.getElementById('tue').style.display='none'
@@ -470,13 +470,13 @@ var mon_click =document.getElementById('mon1');
        document.getElementById('fri1').style.background='#fff'
        document.getElementById('sat1').style.background='#fff'
 
-       document.getElementById('sun1').style.color='#000'
+       document.getElementById('sun1').style.color='#FF5252'
        document.getElementById('mon1').style.color='#000'
        document.getElementById('tue1').style.color='#000'
        document.getElementById('wend1').style.color='#000'
        document.getElementById('thu1').style.color='#fff'
        document.getElementById('fri1').style.color='#000'
-       document.getElementById('sat1').style.color='#000'
+       document.getElementById('sat1').style.color='#0057B8'
 
        document.getElementById('mon').style.display='none'
        document.getElementById('tue').style.display='none'
@@ -495,13 +495,13 @@ var mon_click =document.getElementById('mon1');
        document.getElementById('fri1').style.background='#003876'
        document.getElementById('sat1').style.background='#fff'
 
-       document.getElementById('sun1').style.color='#000'
+       document.getElementById('sun1').style.color='#FF5252'
        document.getElementById('mon1').style.color='#000'
        document.getElementById('tue1').style.color='#000'
        document.getElementById('wend1').style.color='#000'
        document.getElementById('thu1').style.color='#000'
        document.getElementById('fri1').style.color='#fff'
-       document.getElementById('sat1').style.color='#000'
+       document.getElementById('sat1').style.color='#0057B8'
 
        document.getElementById('mon').style.display='none'
        document.getElementById('tue').style.display='none'
@@ -520,7 +520,7 @@ var mon_click =document.getElementById('mon1');
        document.getElementById('fri1').style.background='#fff'
        document.getElementById('sat1').style.background='#003876'
 
-       document.getElementById('sun1').style.color='#000'
+       document.getElementById('sun1').style.color='#FF5252'
        document.getElementById('mon1').style.color='#000'
        document.getElementById('tue1').style.color='#000'
        document.getElementById('wend1').style.color='#000'

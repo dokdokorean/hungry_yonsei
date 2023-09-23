@@ -13,23 +13,42 @@ let min = date.getMinutes()/60;
 
 let hours=date.getHours()+min;
 //월목
-if( day1 > 0 && day1<5 && hours>=11.66 && hours < 21){
+if( day1 > 0 && day1<5 && hours>=11.5 && hours <14.5){
     document.getElementById('closed').style.visibility="hidden"
     document.getElementById('open').style.visibility='visible'
+    document.getElementById('lunch').style.visibility='hidden'
+}
+else if( day1 > 0 && day1<5 && hours>=14.5 && hours <16.5){
+    document.getElementById('closed').style.visibility="hidden"
+    document.getElementById('open').style.visibility='hidden'
+    document.getElementById('lunch').style.visibility='visible'
+}
+else if( day1 > 0 && day1<5 && hours>=16.5 && hours <21){
+    document.getElementById('closed').style.visibility="hidden"
+    document.getElementById('open').style.visibility='visible'
+    document.getElementById('lunch').style.visibility='hidden'
 }
 //금요일
-else if(day1==5 && hours>=11.66 && (hours<18 && min<30)){
+else if(day1==5 && hours>=11.5 && hours <14.5){
     document.getElementById('closed').style.visibility="hidden"
     document.getElementById('open').style.visibility='visible'
+    document.getElementById('lunch').style.visibility='hidden'
+}
+else if(day1==5 && hours>=14.5 && hours <16.5){
+    document.getElementById('closed').style.visibility="hidden"
+    document.getElementById('open').style.visibility='hidden'
+    document.getElementById('lunch').style.visibility='visible'
+}
+else if( day1==5 && hours>=16.5 && hours <19){
+    document.getElementById('closed').style.visibility="hidden"
+    document.getElementById('open').style.visibility='visible'
+    document.getElementById('lunch').style.visibility='hidden'
 }
 //일요일
-else if(day1==0 && hours>17 && hours<22.5){
-    document.getElementById('closed').style.visibility="hidden"
-    document.getElementById('open').style.visibility='visible'
-}
 else{
     document.getElementById('closed').style.visibility="visible"
     document.getElementById('open').style.visibility='hidden'
+    document.getElementById('lunch').style.visibility='hidden'
 }
 }
 var exit =document.getElementById('exit');

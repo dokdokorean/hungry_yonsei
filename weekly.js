@@ -39,13 +39,13 @@ document.getElementById('china-special2-3').innerText='중화오징어덮밥'
 //점심메뉴 1번 (국이름만 수정)
 document.getElementById('lunch-menu1-3').innerText='천원의 아침밥 - '+ '사라다빵,소시지,시리얼&우유'
 //점심메뉴 2번 
-document.getElementById('lunch-menu2-3').innerText='소고기미역국'
+document.getElementById('lunch-menu2-3').innerText='소고기미역국 - 6000원'
 //점심메뉴 3번 
-document.getElementById('lunch-menu3-3').innerText='육개장'
+document.getElementById('lunch-menu3-3').innerText='육개장 - 7000원'
 //점심메뉴 4번 
-document.getElementById('lunch-menu4-3').innerText='돈까스'
+document.getElementById('lunch-menu4-3').innerText='돈까스 - 7000원'
 //점심메뉴 5번 
-document.getElementById('lunch-menu5-3').innerText='소불고기볶음밥'
+document.getElementById('lunch-menu5-3').innerText='소불고기볶음밥 - 6200원'
 
 //목요일
 

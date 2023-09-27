@@ -48,8 +48,7 @@ var list2 =document.getElementById('exit');
     })
 var reload=document.getElementById('reload');
 reload.addEventListener('click',function(event){
-  window.open('https://ys.learnus.org/login/method/sso.php')
-  //location.reload()
+  location.reload()
 })
 
   

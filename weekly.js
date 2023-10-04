@@ -6,7 +6,7 @@ document.getElementById('china-special2-1').innerText=''
 //점심메뉴 1번 (국이름만 수정)
 document.getElementById('lunch-menu1-1').innerText='천원의 아침밥 - '+ '금주는'
 //점심메뉴 2번 
-document.getElementById('lunch-menu2-1').innerText='추석연휴로 인해'
+document.getElementById('lunch-menu2-1').innerText='추석 연휴로 인해'
 //점심메뉴 3번 
 document.getElementById('lunch-menu3-1').innerText='메뉴가'
 //점심메뉴 4번 
@@ -39,7 +39,7 @@ document.getElementById('china-special2-3').innerText=''
 //점심메뉴 1번 (국이름만 수정)
 document.getElementById('lunch-menu1-3').innerText='천원의 아침밥 - '+ '금주는'
 //점심메뉴 2번 
-document.getElementById('lunch-menu2-3').innerText='추석연휴로 인해'
+document.getElementById('lunch-menu2-3').innerText='추석 연휴로 인해'
 //점심메뉴 3번 
 document.getElementById('lunch-menu3-3').innerText='메뉴가'
 //점심메뉴 4번 
@@ -55,7 +55,7 @@ document.getElementById('china-special2-4').innerText=''
 //점심메뉴 1번 (국이름만 수정)
 document.getElementById('lunch-menu1-4').innerText='백반 - '+ '금주는'
 //점심메뉴 2번 
-document.getElementById('lunch-menu2-4').innerText='추석연휴로 인해'
+document.getElementById('lunch-menu2-4').innerText='추석 연휴로 인해'
 //점심메뉴 3번 
 document.getElementById('lunch-menu3-4').innerText='메뉴가'
 //점심메뉴 4번 
@@ -71,7 +71,7 @@ document.getElementById('china-special2-5').innerText=''
 //점심메뉴 1번 (국이름만 수정)
 document.getElementById('lunch-menu1-5').innerText='백반 - '+ '금주는'
 //점심메뉴 2번 
-document.getElementById('lunch-menu2-5').innerText='추석연휴로 인해'
+document.getElementById('lunch-menu2-5').innerText='추석 연휴로 인해'
 //점심메뉴 3번 
 document.getElementById('lunch-menu3-5').innerText='메뉴가'
 //점심메뉴 4번 

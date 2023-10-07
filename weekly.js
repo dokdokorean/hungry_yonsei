@@ -1,18 +1,18 @@
 //월요일
 
 //중식특식
-document.getElementById('china-special2-1').innerText=''
+document.getElementById('china-special2-1').innerText='한글날'
 
 //점심메뉴 1번 (국이름만 수정)
-document.getElementById('lunch-menu1-1').innerText='천원의 아침밥 - '+ '금주는'
+document.getElementById('lunch-menu1-1').innerText='한글날'
 //점심메뉴 2번 
-document.getElementById('lunch-menu2-1').innerText='추석 연휴로 인해'
+document.getElementById('lunch-menu2-1').innerText='한글날'
 //점심메뉴 3번 
-document.getElementById('lunch-menu3-1').innerText='메뉴가'
+document.getElementById('lunch-menu3-1').innerText='한글날'
 //점심메뉴 4번 
-document.getElementById('lunch-menu4-1').innerText='제공되지'
+document.getElementById('lunch-menu4-1').innerText='한글날'
 //점심메뉴 5번 
-document.getElementById('lunch-menu5-1').innerText='않습니다'
+document.getElementById('lunch-menu5-1').innerText='한글날'
 
 //화요일
 

@@ -44,6 +44,18 @@ body{
     animation-fill-mode: forwards;
     opacity: 1;
 }
+#v2_ad{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    z-index: 3;
+    animation: fadeout 1s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    opacity: 1;
+}
 #yonsei1{
     position: absolute;
     left: 50%;
@@ -407,8 +419,9 @@ body{
 }
 #lunch-menu1-1,#lunch-menu1-2,#lunch-menu1-3,#lunch-menu1-4,#lunch-menu1-5,#lunch-menu1-6,#lunch-menu1-7{
     position: relative;
-    left: 10px;
+    left: 0px;
 }
+
 #lunch-menu2{
     position: relative;
     display: inline-flex;
